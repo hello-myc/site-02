@@ -18,11 +18,12 @@ body {
   background-image:
     url("../images/cover0.png"),
     url("../images/cover.png"),
+    
     linear-gradient(
       196deg,
-      rgba(28, 48, 63, 1) 0%,
-      rgb(18 105 160) 50%,
-      rgb(8 55 80) 100%
+      rgba(16, 84, 130, 1) 0%,
+      rgb(121 162 238) 50%,
+      rgb(61 236 224) 100%
     );
 
   background-position:
@@ -802,7 +803,7 @@ a.btn {
     align-items: center;
     font-size: 20px;
     text-align: center;
-    background: #245a7f;
+    background: #609ba6;
     color: #ffffff !important;
     padding: 10px 40px;
     text-decoration: none;
@@ -821,7 +822,7 @@ a.resume-btn{
 }
 
 a.btn:hover {
-    background: #7ed3ff;
+    background: #222222;
 }
 
 a.btn.btn-free:hover {

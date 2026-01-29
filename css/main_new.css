@@ -782,7 +782,7 @@ z-index: 11;/* box-shadow: 20px -20px 0px 0px #b74bff !important; */}
 
 h2 {
     color: #ffffff;
-    font-size: 28px;
+    font-size: 40px;
     line-height: normal;
     /*margin: 40px 0;*/
     font-weight: 700;
@@ -792,7 +792,7 @@ h2 {
 @media (min-width: 769px) {
     h2 {
         /* color: #7ed3ff; */
-        font-size: 40px;
+        font-size: 50px;
     }
 }
 
@@ -899,7 +899,7 @@ a.btn.btn_learnmore:hover {
 }
 
 .block-section h2 {
-    font-weight: 700;
+    font-weight: 100;
     width: 100%;
     /*margin: auto;*/
     position: relative;
@@ -3698,7 +3698,7 @@ a.intro-maker-link:hover{
 }
 
 .p-role{
-    font-size: 0.8em;
+    font-size: 0.9em;
     line-height: 1.3em;
     color: #fff;
     font-style: italic;

@@ -784,12 +784,20 @@ z-index: 11;/* box-shadow: 20px -20px 0px 0px #b74bff !important; */}
 }
 
 h2 {
-    color: #ffffff;
+    /* color: #ffffff85; */
     font-size: 40px;
     line-height: normal;
     /*margin: 40px 0;*/
     font-weight: 700;
 /*    padding: 0 20px;*/
+
+  /* background-image: linear-gradient(188deg, #fff 50%, #12e7ff 100%);
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent; */
+
 }
 
 @media (min-width: 769px) {
@@ -2361,6 +2369,7 @@ li.pdr-txt {
 /*    flex-direction: row;*/
 /*    position: relative;*/
 	justify-content: center;
+    padding-top: 30px;
 }
 
 @media (min-width: 961px) {
@@ -2858,19 +2867,19 @@ a.txt-link {
     color: #fff;
 }
 
-.block-section.edit-section h2 {
+/* .block-section.edit-section h2 {
     color: #fff;
-}
+} */
 
 .block-section.review-section h2 {
     color: #000000;
     margin: 0;
 }
 
-.block-section.FAQ-section h2 {
-    /* color: #7ed3ff; */
+/* .block-section.FAQ-section h2 {
+    color: #7ed3ff;
     margin-top: 20px;
-}
+} */
 
 .txt-block.b-block p {
     color: #000;
@@ -3159,8 +3168,8 @@ transition: .2s;}
     width: 100%;
 	float: left;
 	/* border-bottom: 1px solid #dfdfdf;  */
-	margin: 20px 0;
-	padding: 15px !important;
+	/* margin: 20px 0; */
+	/* padding: 15px !important; */
     /* border: 1px solid #ffffff99; */
 		
 }
@@ -3351,9 +3360,9 @@ z-index: 9;}
 /*    align-items: flex-start;*/
 }
 .card-body {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 30px;
-    padding: 20px;
+    padding: 30px 20px;
     background: #00000030;
 }
 
@@ -3781,6 +3790,7 @@ a.intro-maker-link:hover{
       gap: 16px;
       transform: none !important;
       width: 100% !important;
+      padding-top:30px;
     }
     .swiper-slide {
       width: auto !important;
@@ -3807,6 +3817,7 @@ a.intro-maker-link:hover{
   @media (max-width: 961px) {
     .swiper{
         overflow: visible !important;
+        padding-top: 30px !important;
     }
     .swiper-wrapper {
       display: flex !important;
@@ -3859,14 +3870,24 @@ a.intro-maker-link:hover{
   font-size: 50px;
   font-weight: bold;
 
-  /* Apply the gradient as a background image */
   background-image: linear-gradient(188deg, #fff 50%, #12e7ff 100%);
 
-  /* Clip the background to the text area (requires -webkit- prefix) */
   -webkit-background-clip: text;
   background-clip: text;
-
-  /* Make the text transparent to show the background */
   -webkit-text-fill-color: transparent;
-  color: transparent; /* Standard property for transparency */
+  color: transparent;
+}
+
+.h2-box{
+    height: 100px;
+    border-bottom:#fff solid 1px;
+    overflow: hidden;
+    text-align: right;
+    width: 85%;
+    margin: 0 auto;
+}
+.h2-box h2{
+    text-align: right;
+    font-size: 70px;
+    font-weight: 900;
 }

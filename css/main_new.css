@@ -2052,7 +2052,7 @@ span.big-font {
 
 .pdr-v-column h2 {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 .pdr-v-column p {
@@ -3363,7 +3363,8 @@ z-index: 9;}
     font-size: 14px;
     line-height: 30px;
     padding: 30px 20px;
-    background: #00000030;
+    background: #00000045;
+    color: #ffffff;
 }
 
 @media (min-width: 961px) {
@@ -3731,7 +3732,7 @@ a.intro-maker-link:hover{
     display: inline-block;
     content: '';
     vertical-align: 0.125em;
-    background: #14e7fe;
+    background: #eaeaea;
     border-radius: 2px;
     background-size: 1rem 1rem;
     width: 0.5rem;
@@ -3754,8 +3755,8 @@ a.intro-maker-link:hover{
 .anchor-box a{
     text-decoration: none;
     color:#ffffff !important;
-    font-weight: 400;
-    font-size: 13px;
+    font-weight: 600;
+    font-size: 14px;
 }
 .anchor-box a:hover{
     color:#7ed3ff !important;
@@ -3888,6 +3889,21 @@ a.intro-maker-link:hover{
 }
 .h2-box h2{
     text-align: right;
-    font-size: 70px;
-    font-weight: 900;
+    font-size: 45px;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+  @media (min-width: 961px) {
+    .h2-box h2{
+        text-align: right;
+        font-size: 70px;
+        font-weight: 100;
+        color: #ffffff;
+    }
+
+   .pdr-v-column h2 {
+    /* text-align: center; */
+    margin-top: 40px;
+    } 
 }

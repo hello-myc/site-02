@@ -3648,7 +3648,7 @@ div#connect_facebook {
     padding: 20px 0 15px 0!important;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-size: 13px;
     font-weight: 600;
 	line-height: 20px;
@@ -3834,9 +3834,8 @@ a.intro-maker-link:hover{
       height: auto;
       display: block;
     }
-    .swiper-button-prev,
-    .swiper-button-next {
-        position: absolute;
+    .swiper-button-prev, .swiper-button-next {
+      position: absolute;
       top: 60% !important;
       transform: translateY(-50%);
       color: #fff !important;
@@ -3884,7 +3883,7 @@ a.intro-maker-link:hover{
     border-bottom:#fff solid 1px;
     overflow: hidden;
     text-align: right;
-    width: 85%;
+    width: 95%;
     margin: 0 auto;
 }
 .h2-box h2{
@@ -3892,18 +3891,23 @@ a.intro-maker-link:hover{
     font-size: 45px;
     font-weight: 100;
     color: #ffffff;
+    /* text-transform: uppercase; */
 }
 
   @media (min-width: 961px) {
     .h2-box h2{
         text-align: right;
-        font-size: 70px;
+        font-size: 80px;
         font-weight: 100;
         color: #ffffff;
     }
 
    .pdr-v-column h2 {
     /* text-align: center; */
-    margin-top: 40px;
+    margin-top: 30px;
     } 
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+     text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.6);
 }

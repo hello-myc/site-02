@@ -42,7 +42,7 @@
 
 .cardblock .cardblock-header .btn-header-link {
   color: #12e7ff !important;
-  background:rgba(255, 255, 255, 1); 
+  background:rgba(255, 255, 255, 0.8); 
   display: block;
   text-align: left;
   padding: 30px 20px;

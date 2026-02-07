@@ -29,7 +29,7 @@ body {
       196deg,
       rgba(157, 157,157, 1) 0%,
       rgb(23 23 23) 50%,
-      rgb(255 255 255) 100%
+      rgb(215 215 215) 100%
     );
 
   background-position:
@@ -833,7 +833,7 @@ a.resume-btn{
 }
 
 a.btn:hover {
-    background: #222222;
+    background: #3e3e3e;
 }
 
 a.btn.btn-free:hover {
@@ -3645,7 +3645,7 @@ div#connect_facebook {
 	color: #ffffff;
     display: block;
     width: 100%;
-    padding: 20px 0 15px 0!important;
+    padding: 10px 0 !important;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     /* text-transform: uppercase; */

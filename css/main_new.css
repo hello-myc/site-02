@@ -832,6 +832,14 @@ a.resume-btn{
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }
 
+@media (min-width: 960px) {
+    a.resume-btn{
+        width: 200px;
+        height: 200px;
+        font-size: 24px;
+    }
+}
+
 a.btn:hover {
     background: #3e3e3e;
 }

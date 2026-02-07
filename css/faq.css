@@ -130,7 +130,7 @@
 .cardblock2 .cardblock-header .btn-header-link.collapsed {
   padding: 0 10px;
   background: none;
-  color: #ffffff !important;
+  color: #12e7ff !important;
   border-bottom: 1px solid #ffffff;
 }
 .cardblock2 .cardblock-header .btn-header-link.collapsed:hover {
@@ -155,7 +155,7 @@
 
 @media (min-width: 768px) {
 	.cardblock .cardblock-header .btn-header-link {
-		font-size: 20px;
+		font-size: 18px;
 		font-weight: 400;
     padding: 50px 50px;
 /*		line-height: 36px;*/

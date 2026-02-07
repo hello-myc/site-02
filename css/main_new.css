@@ -825,9 +825,9 @@ a.btn {
 /*    float: left;*/
 }
 a.resume-btn{
-    width: 200px;
-    height: 200px;
-    font-size: 24px;
+    width: 150px;
+    height: 150px;
+    font-size: 22px;
     border-radius: 100px;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }

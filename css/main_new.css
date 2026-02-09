@@ -3829,7 +3829,7 @@ a.intro-maker-link:hover{
   /* Mobile slider */
   @media (max-width: 961px) {
     .swiper{
-        overflow: visible !important;
+        /* overflow: visible !important; */
         padding-top: 30px !important;
     }
     .swiper-wrapper {
@@ -3952,7 +3952,7 @@ a.intro-maker-link:hover{
 
 @media (max-width: 960px) {
     .work-card {
-        position: relative;  /* Turn off sticky on mobile */
+        position: relative; 
         top: auto;
     }
 }

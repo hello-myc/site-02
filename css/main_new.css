@@ -2979,8 +2979,9 @@ p {
     /* align-items: center; */
 transition: .2s;}
 
-.top-buybar {
-    background: #000;
+.top-navbar {
+    background: #0000002b;
+    backdrop-filter: blur(20px);
     padding: 10px;
     width: 100%;
     overflow: hidden;
@@ -2995,7 +2996,7 @@ transition: .2s;}
 }
 
 @media (min-width: 768px) {
-    .top-buybar {
+    .top-navbar {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -3003,41 +3004,41 @@ transition: .2s;}
     }
 }
 
-.top-buybar .pdr-icon p {
+.top-navbar .pdr-icon p {
     color: #fff;
     font-size: 20px;
     font-weight: 500;
 }
 
 @media (min-width: 768px) {
-    .top-buybar .pdr-icon p {
+    .top-navbar .pdr-icon p {
         color: #fff;
         font-size: 25px;
         font-weight: 500;
     }
 }
 
-.top-buybar .pdr-icon {
+.top-navbar .pdr-icon {
     float: left;
     /* margin: 0px 0 10px 0; */
 }
 
-.top-buybar .cl-icon{
+.top-navbar .cl-icon{
 	display: flex;
 	justify-content: center;
 }
-.top-buybar .cl-icon img{
+.top-navbar .cl-icon img{
 	width: 105px;
 }
 
 @media (min-width: 768px) {
-    .top-buybar .pdr-icon {
+    .top-navbar .pdr-icon {
         float: left;
         margin: 0px 0 0px 0;
     }
 }
 
-.top-buybar .btn-block {
+.top-navbar .btn-block {
     float: right;
     width: auto;
     display: flex;
@@ -3046,7 +3047,7 @@ transition: .2s;}
 }
 
 @media (min-width: 768px) {
-    .top-buybar .btn-block {
+    .top-navbar .btn-block {
         float: right;
         width: auto;
         display: flex;
@@ -3054,7 +3055,7 @@ transition: .2s;}
     }
 }
 
-.top-buybar .btn-block .btn-box {
+.top-navbar .btn-block .btn-box {
     width: auto;
     padding: 0;
     margin: 0 auto;
@@ -3062,7 +3063,7 @@ transition: .2s;}
 }
 
 @media (min-width: 768px) {
-    .top-buybar .btn-block .btn-box {
+    .top-navbar .btn-block .btn-box {
         padding: 0 30px;
         width: auto;
         /* height: 52px; */
@@ -3072,7 +3073,7 @@ transition: .2s;}
     }
 }
 
-.top-buybar a.btn {
+.top-navbar a.btn {
     margin: 5px 0px;
     padding: 8px 12px;
     font-weight: 600;
@@ -3083,15 +3084,15 @@ transition: .2s;}
 	color: #000000 !important;
 }
 
-.top-buybar a.btn-more {
+.top-navbar a.btn-more {
 	background: #ffffff;
 }
-.top-buybar a.btn.btn-more:hover {
+.top-navbar a.btn.btn-more:hover {
     background: #FFC107;
 }
 
 @media (min-width: 768px) {
-    .top-buybar a.btn {
+    .top-navbar a.btn {
         margin: 0px;
         padding: 5px;
         font-weight: 600;
@@ -3102,13 +3103,13 @@ transition: .2s;}
     }
 }
 
-.top-buybar .pdr-icon img {
+.top-navbar .pdr-icon img {
     width: 36px;
     height: 36px;
 }
 
 @media (min-width: 768px) {
-    .top-buybar .pdr-icon img {
+    .top-navbar .pdr-icon img {
         width: 42px;
         height: 42px;
     }
@@ -3787,12 +3788,10 @@ a.intro-maker-link:hover{
 
  /* Desktop 4x2 grid */
 
-
   @media (min-width: 961px) {
     .swiper{
         overflow: visible !important;
     }
-
     .swiper-wrapper {
       display: grid !important;
       grid-template-columns: repeat(3, 1fr);
@@ -3818,8 +3817,6 @@ a.intro-maker-link:hover{
       display: none !important;
     }
   }
-
-
 
 
   /* Mobile slider */
@@ -3863,7 +3860,7 @@ a.intro-maker-link:hover{
   @media (min-width: 1301px) {
     .swiper-wrapper {
       display: grid !important;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(5, 1fr);
       gap: 25px;
       transform: none !important;
       width: 100% !important;

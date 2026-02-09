@@ -178,7 +178,7 @@ body {
 .column-block {
     width: 100%;
     clear: both;
-    overflow: hidden;
+    /* overflow: hidden; */
     padding: 30px 20px;
     box-sizing: border-box;
     position: relative;
@@ -207,16 +207,20 @@ body {
 /* line 49, ../sass/main_new.scss */
 .pdr-center .ul-class {
     display: flex;
-	background: #00000035;
+	/* background: #00000035; */
     /* border: 1px solid #ffffff7a; */
     border-radius: 10px;
+    
 }
 
 @media (min-width: 961px) {
-    /* line 57, ../sass/main_new.scss */ .one-column ul li {
+    /* line 57, ../sass/main_new.scss */ 
+    .one-column ul li {
         width: 98%;
     }
-
+.pdr-center .ul-class {
+    min-height: 80vh;
+}
     .two-column ul li {
         /* width: calc(50% - 40px); */
         float: left;
@@ -322,7 +326,7 @@ h3 {
 
 @media (min-width: 600px) {
     h3 {
-        font-size: 32px;
+        font-size: 25px;
         line-height: 42px;
         /* font-weight: 700; */
         margin: 0px;
@@ -345,6 +349,9 @@ h3 {
     }
 }
 @media (min-width: 961px) {
+    h3 {
+        font-size: 28px;
+    }   
 	.txt-align-l h3{
 		text-align: left !important;
 	}
@@ -2865,8 +2872,8 @@ a.txt-link {
         width: 100%;
     }
 	.two-column.pdr-column.pdr-center {
-		margin-bottom: 40px;
-		padding: 30px 20px;
+		margin-bottom: 50px;
+		padding: 10px 20px;
 	}	
 	
 }
@@ -3734,7 +3741,7 @@ a.intro-maker-link:hover{
     padding-left: 1em;
 }
 .p-txt-list ul li{
-   color:#d6d6d6;
+   /* color:#d6d6d6; */
    line-height: 1.5em;
 }
 .p-txt-list ul li::before {
@@ -3915,4 +3922,37 @@ a.intro-maker-link:hover{
 
 .swiper-button-next:after, .swiper-button-prev:after {
      text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.6);
+}
+
+/* Recent Works - Overlapping Cards with Liquid Glass */
+.recent-works-container {
+    /* max-width: 1000px; */
+    margin: 0 auto;
+    padding-top: 30px;
+    /* padding-bottom: 200px; */
+}
+
+.work-card {
+    position: sticky;
+    top: 90px;
+    margin-bottom: 2rem;
+    /* background: var(--glass-bg); */
+    background: #00000075;
+    backdrop-filter: blur(40px) saturate(180%);
+    -webkit-backdrop-filter: blur(40px) saturate(180%);
+    border-radius: 12px;
+    border: 1px solid var(--glass-border);
+    box-shadow: 
+        0 8px 32px rgba(0, 0, 0, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.5),
+        inset 0 -1px 0 rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+@media (max-width: 960px) {
+    .work-card {
+        position: relative;  /* Turn off sticky on mobile */
+        top: auto;
+    }
 }

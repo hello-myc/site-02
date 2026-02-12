@@ -5,10 +5,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     padding: 0;
     border: 0;
     outline: 0;
-    font-family: "Zalando Sans Expanded", sans-serif;
+    font-family: "Lexend", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 200;
     font-style: normal;
+    
 }
 
 
@@ -27,9 +28,9 @@ body {
     
     linear-gradient(
       196deg,
-      rgba(157, 157,157, 1) 0%,
+      rgba(159, 222,255, 1) 0%,
       rgb(23 23 23) 50%,
-      rgb(215 215 215) 100%
+      rgb(202 230 228) 100%
     );
 
   background-position:
@@ -372,6 +373,7 @@ h3 {
 }
 
 .top-block h1 {
+    
     padding: 20px 0;
     position: relative;
     bottom: auto;
@@ -2067,7 +2069,7 @@ span.big-font {
 
 .pdr-v-column h2 {
     text-align: center;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 .pdr-v-column p {
@@ -3657,13 +3659,14 @@ div#connect_facebook {
 */
 .intro-temp .pdr-txt {
 	text-decoration: none !important;
-    background: #222222;
+    /* background: #222222; */
+    background: linear-gradient(352deg, #000000, #817e7e);
 	color: #ffffff;
     display: block;
     width: 100%;
     padding: 10px 0 !important;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    /* border-bottom-left-radius: 10px; */
+    /* border-bottom-right-radius: 10px; */
     /* text-transform: uppercase; */
     font-size: 12px;
     font-weight: 400;
@@ -3900,7 +3903,7 @@ a.intro-maker-link:hover{
 }
 .h2-box h2{
     text-align: right;
-    font-size: 45px;
+    font-size: 60px;
     font-weight: 100;
     color: #ffffff;
     /* text-transform: uppercase; */
@@ -3909,14 +3912,14 @@ a.intro-maker-link:hover{
   @media (min-width: 961px) {
     .h2-box h2{
         text-align: right;
-        font-size: 80px;
+        font-size: 100px;
         font-weight: 100;
         color: #ffffff;
     }
 
    .pdr-v-column h2 {
     /* text-align: center; */
-    margin-top: 30px;
+    margin-top: 15px;
     } 
 }
 
@@ -3956,3 +3959,4 @@ a.intro-maker-link:hover{
         top: auto;
     }
 }
+

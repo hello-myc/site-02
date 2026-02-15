@@ -28,9 +28,9 @@ body {
     
     linear-gradient(
       196deg,
-      rgba(159, 222,255, 1) 0%,
-      rgb(23 23 23) 50%,
-      rgb(202 230 228) 100%
+      rgba(43, 43,43, 1) 0%,
+      rgb(74 74 74) 50%,
+      rgb(11 132 184) 100%
     );
 
   background-position:
@@ -113,7 +113,7 @@ table {
 
 @media (min-width: 551px) {
     /* line 15, ../sass/_extend.scss */ .tks-column, .one-column, .two-column, .three-column, .four-column, .five-column {
-        max-width: 1500px;
+        /* max-width: 1500px; */
         padding: 0 0px;
     }
 }
@@ -177,7 +177,9 @@ body {
 
 /* line 36, ../sass/main_new.scss */
 .column-block {
-    width: 100%;
+    width: 95%;
+    margin: 0 auto;
+    max-width: 1400px;
     clear: both;
     /* overflow: hidden; */
     padding: 30px 20px;
@@ -220,7 +222,7 @@ body {
         width: 98%;
     }
 .pdr-center .ul-class {
-    min-height: 80vh;
+    min-height: 200px;
 }
     .two-column ul li {
         /* width: calc(50% - 40px); */
@@ -319,7 +321,7 @@ h3 {
     padding: 20px 0 20px 0 !important;
     font-size: 20px;
     line-height: 30px;
-    font-weight: 700 ;
+    font-weight: 600 ;
     margin: 0px;
     color: #ffffff;
     text-align: center !important;
@@ -1574,7 +1576,7 @@ select.buyPlanSelector option {
 
 @media (min-width: 769px) {
     .top-info-block {
-        max-width: 1500px;
+        max-width: 1400px;
         margin: auto;
         position: relative;
         justify-content: center;
@@ -3415,7 +3417,7 @@ div#connect_facebook {
 .round-holder li{
 	/* background: #F9F9F9; */
 	/* border-radius: 6px; */
-	overflow: hidden;
+	/* overflow: hidden; */
 	margin-bottom: 40px;
 }
 
@@ -3594,6 +3596,15 @@ div#connect_facebook {
 	margin: 0 auto !important;
 }
 
+a .share-block:hover > img{
+    border:1px solid #12e7ff;
+}
+.share-block img{
+    /* margin-bottom: 15px; */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+    border:1px solid #222222;
+}
+
 @media (max-width: 960px) {
 .round-holder li{
     margin: 0 10px 40px 10px;
@@ -3607,9 +3618,7 @@ div#connect_facebook {
     width:80%;
     margin: 0 auto;
 }
-.share-block img{
-    margin-bottom: 15px;
-}
+
 .share-block .pdr-txt{
     padding: 0 !important;
 }
@@ -3774,8 +3783,8 @@ a.intro-maker-link:hover{
 .anchor-box a{
     text-decoration: none;
     color:#ffffff !important;
-    font-weight: 600;
-    font-size: 14px;
+    font-weight: 400;
+    font-size: 13px;
 }
 .anchor-box a:hover{
     color:#7ed3ff !important;
@@ -3786,7 +3795,7 @@ a.intro-maker-link:hover{
         width: 100% !important;
     }
     .anchor-box .btn-box{
-        width: 25% !important;
+        width: 20% !important;
         text-align: center;
         display: flex;
         justify-content: center;
@@ -3870,7 +3879,7 @@ a.intro-maker-link:hover{
   @media (min-width: 1301px) {
     .swiper-wrapper {
       display: grid !important;
-      grid-template-columns: repeat(5, 1fr);
+      grid-template-columns: repeat(4, 1fr);
       gap: 25px;
       transform: none !important;
       width: 100% !important;
@@ -3895,22 +3904,28 @@ a.intro-maker-link:hover{
 
 .h2-box{
     height: 100px;
-    border-bottom:#fff solid 1px;
+    border-bottom:#fff dashed 1px;
     overflow: hidden;
     text-align: right;
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
+    opacity: 0.4;
 }
 .h2-box h2{
     text-align: right;
     font-size: 60px;
     font-weight: 100;
     color: #ffffff;
+    padding: 0 20px;
     /* text-transform: uppercase; */
 }
 
   @media (min-width: 961px) {
+    .h2-box{
+        height: 130px;
+    }
     .h2-box h2{
+        height: 100px;
         text-align: right;
         font-size: 100px;
         font-weight: 100;
@@ -3919,7 +3934,7 @@ a.intro-maker-link:hover{
 
    .pdr-v-column h2 {
     /* text-align: center; */
-    margin-top: 15px;
+    margin-top: 45px;
     } 
 }
 
@@ -3937,8 +3952,8 @@ a.intro-maker-link:hover{
 
 .work-card {
     position: sticky;
-    top: 90px;
-    margin-bottom: 2rem;
+    top: 65px;
+    margin-bottom: 80px;
     /* background: var(--glass-bg); */
     background: #00000055;
     backdrop-filter: blur(40px) saturate(180%);
@@ -3960,3 +3975,17 @@ a.intro-maker-link:hover{
     }
 }
 
+.award-badge{
+    position: absolute;
+    bottom: 3%;
+    left: 3%;
+    width: 20%;
+    height: auto;
+    background: #ffffff;
+    border-radius: 100px;
+    padding: 3%;
+    box-shadow: 0 0 16px #00000050;    
+}
+.award-badge:hover{
+    background: #12e7ff;
+}

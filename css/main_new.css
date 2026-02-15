@@ -3602,7 +3602,7 @@ a .share-block:hover > img{
 .share-block img{
     /* margin-bottom: 15px; */
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
-    border:1px solid #222222;
+    border:1px solid #959595;
 }
 
 @media (max-width: 960px) {

@@ -2,35 +2,35 @@
 const chatData = [
     {
         type: 'question',
-        text: 'So, what kind of designer are you?'
+        text: 'Hey! Who are you?'
     },
     {
         type: 'answer',
-        text: 'A Visual & Web Designer with a product-focused mindset. I design with purpose — not just aesthetics.'
+        text: ' I\'m Ming-Yen, a Visual & Web Designer with a product-focused mindset. I like creating digital experiences that actually work.'
     },
     {
         type: 'question',
-        text: 'What do you usually work on?'
+        text: 'What kind of projects do you usually work on?'
     },
     {
         type: 'answer',
-        text: 'Product experiences. <br>From AI creative tools and facial recognition APIs to communication platforms and sales-driven landing pages.'
+        text: 'From AI creative software and facial recognition platforms to communication tools and sales-driven landing pages — basically anything product-focused.'
     },
     {
         type: 'question',
-        text: 'Only design?'
+        text: 'So you only design visuals?'
     },
     {
         type: 'answer',
-        text: 'Not quite.<br> I build and adjust HTML/CSS layouts, tweak JavaScript interactions, and make sure designs ship accurately across devices.'
+        text: 'Not at all.<br> I implement and tweak HTML/CSS layouts, modify JavaScript interactions, and make sure designs work smoothly across devices.'
     },
     {
         type: 'question',
-        text: 'What about content and growth?'
+        text: 'Do you do content design too?'
     },
     {
         type: 'answer',
-        text: 'I support SEO initiatives — crafting use case pages and creating visuals for blog content to strengthen organic reach.'
+        text: 'Yup. I help with SEO-driven initiatives — like building use case pages and creating blog visuals to boost organic reach.'
     },
     {
         type: 'question',
@@ -42,7 +42,7 @@ const chatData = [
     },
     {
         type: 'question',
-        text: 'What drives you?'
+        text: 'What drives your work?'
     },   
     {
         type: 'answer',

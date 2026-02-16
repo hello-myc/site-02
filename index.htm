@@ -19,11 +19,13 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>	
-  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
-  <link rel="stylesheet" href="css/faq.css" type="text/css" />
-  <link rel="stylesheet" href="css/main_new.css" type="text/css" />		
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>	
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" href="css/faq.css" type="text/css" />
+<link rel="stylesheet" href="css/main_new.css" type="text/css" />		
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+<link rel="stylesheet" href="css/messenger-styles.css" type="text/css" />
 
   <!--slider-->
   <link rel="stylesheet" href="css/flexslider.css" type="text/css" />
@@ -579,7 +581,26 @@
 	</div>		
 	<div class="column-block pdr-v-column one-column">
 
-	<div class="accordion accordion-box" id="faq">
+    <div class="page-wrapper">
+        <div class="chat-container">
+            <div class="chat-header">
+                <h1>💬 Let's chat</h1>
+            </div>
+
+            <div class="chat-messages" id="chatMessages">
+                <div class="scroll-trigger-area" id="scrollTriggerArea">
+                    <!-- 訊息會透過 JavaScript 動態載入 -->
+                </div>
+            </div>
+
+			<div class="scroll-indicator" id="scrollIndicator" style="display: none;">
+            <!-- 👇 繼續往下看我的作品 -->
+        	</div>
+        </div> -->
+    </div>
+	<script src="js/messenger-script.js"></script>
+
+	<div class="accordion accordion-box" id="faq" style="display: none;">
 	<!--1-->					
 	<div class="cardblock">
 		<div class="cardblock-header" id="faqhead1">
@@ -682,7 +703,7 @@
   </script>
 <script  src="js/anchor.js"></script>	
 
-<div class="block-space clear" style="height: 60px;"></div>	
+<!-- <div class="block-space clear" style="height: 60px;"></div>	 -->
 
 <!--contact-->	
 <div id="section-5" class="block-section  edit-section section" >

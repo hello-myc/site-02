@@ -36,6 +36,20 @@
   <script type="text/javascript" src="js/lazysizes.min.js"></script>	
   <script src="js/jquery-3.1.1_min.js"></script>
 
+<!----floating bar--->
+<script>
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+	document.getElementById("navbar").style.top = "0";
+	} else {
+	document.getElementById("navbar").style.top = "-200px";
+	}
+}
+
+</script>
+<!----end of floating bar--->
+
 </head>
 
 
@@ -664,7 +678,7 @@
 
 	</div>
 
-	<!-- <script src="js/bootstrap.min.js"></script> -->
+	<script src="js/bootstrap.min.js"></script>
  
 	</div>	  
 </div>
@@ -731,32 +745,10 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <!-- Your script -->
-<script src="js/messenger-script.js"></script>
-<script src="js/gallery.js"></script>
 
-<!----floating bar--->
-<script>
-window.onscroll = function() {scrollFunction()};
-function scrollFunction() {
-	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-	document.getElementById("navbar").style.top = "0";
-	} else {
-	document.getElementById("navbar").style.top = "-200px";
-	}
-}
-window.addEventListener('load', function() {
-        // 強制重置到頁面頂部
-        window.scrollTo(0, 0);
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-        
-        // 立即執行一次選單判斷
-        setTimeout(function() {
-            scrollFunction();
-        }, 50);
-    });
-</script>
-<!----end of floating bar--->
+<script src="js/gallery.js"></script>
+<script src="js/messenger-script.js"></script>
+
 
 </body>
 </html>

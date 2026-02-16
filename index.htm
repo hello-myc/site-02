@@ -19,13 +19,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 
+<link rel="stylesheet" href="css/messenger-styles.css" type="text/css" />
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>	
 <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
 <link rel="stylesheet" href="css/faq.css" type="text/css" />
 <link rel="stylesheet" href="css/main_new.css" type="text/css" />		
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
-<link rel="stylesheet" href="css/messenger-styles.css" type="text/css" />
+
 
   <!--slider-->
   <link rel="stylesheet" href="css/flexslider.css" type="text/css" />
@@ -37,18 +38,7 @@
 
 </head>
 
-  <!----floating bar--->
-  <script>
-	window.onscroll = function() {scrollFunction()};
-	function scrollFunction() {
-		if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-		document.getElementById("navbar").style.top = "0";
-		} else {
-		document.getElementById("navbar").style.top = "-200px";
-		}
-	}
-  </script>
-  <!----end of floating bar--->
+
 
 <body>
 
@@ -598,7 +588,7 @@
         	</div>
         </div>
     </div>
-	<script src="js/messenger-script.js"></script>
+	
 
 	<div class="accordion accordion-box" id="faq" style="display: none;">
 	<!--1-->					
@@ -674,7 +664,7 @@
 
 	</div>
 
-	<script src="js/bootstrap.min.js"></script>
+	<!-- <script src="js/bootstrap.min.js"></script> -->
  
 	</div>	  
 </div>
@@ -702,6 +692,7 @@
     });
   </script>
 <script  src="js/anchor.js"></script>	
+
 
 <!-- <div class="block-space clear" style="height: 60px;"></div>	 -->
 
@@ -740,8 +731,32 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <!-- Your script -->
+<script src="js/messenger-script.js"></script>
 <script src="js/gallery.js"></script>
 
+<!----floating bar--->
+<script>
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+	document.getElementById("navbar").style.top = "0";
+	} else {
+	document.getElementById("navbar").style.top = "-200px";
+	}
+}
+window.addEventListener('load', function() {
+        // 強制重置到頁面頂部
+        window.scrollTo(0, 0);
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        
+        // 立即執行一次選單判斷
+        setTimeout(function() {
+            scrollFunction();
+        }, 50);
+    });
+</script>
+<!----end of floating bar--->
 
 </body>
 </html>

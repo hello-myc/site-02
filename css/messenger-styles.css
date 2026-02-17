@@ -257,6 +257,7 @@
 
     .chat-header h1 {
         font-size: 1.1rem;
+        line-height: initial;
     }
 
     .chat-messages {

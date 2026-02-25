@@ -26,6 +26,9 @@
     flex-direction: column;
     box-shadow: 0 0 50px rgba(0,0,0,0.2);
     position: relative;
+    overflow: hidden;
+    border-radius: 18px;
+
 }
 
 .chat-header {

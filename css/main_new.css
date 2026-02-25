@@ -3988,7 +3988,7 @@ a.intro-maker-link:hover{
 
 .work-card {
     position: sticky;
-    top: 65px;
+    top: 35px;
     margin-bottom: 80px;
     /* background: var(--glass-bg); */
     background: #00000055;

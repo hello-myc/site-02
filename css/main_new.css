@@ -23,8 +23,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 body {
     /* line-height: 1; */
   background-image:
-    url("../images/cover0.png"),
-    url("../images/cover.png"),
+    url("../images/cover0.webp"),
+    url("../images/cover.webp"),
     
     linear-gradient(
       196deg,

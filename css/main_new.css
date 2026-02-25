@@ -2718,7 +2718,7 @@ img.top-right-bnr {
 .pdr-vid {
     box-shadow: none !important;
     /* width: calc(45% - 40px) !important; */
-    padding: 20px ;
+    padding: 10px ;
 }
 
 @media(min-width: 768px) {

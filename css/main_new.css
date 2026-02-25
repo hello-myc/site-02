@@ -920,7 +920,7 @@ a.btn.btn_learnmore:hover {
 .three-column p {
 /*    margin: 10px 0;*/
     float: left;
-    font-size: 18px;
+    font-size: 16px;
     line-height: normal;
 /*    text-align: center;*/
     width: 100%;
@@ -938,7 +938,9 @@ a.btn.btn_learnmore:hover {
 }
 
 @media (max-width: 960px) {
-
+.three-column p {
+    font-size: 13px;
+}
     .pdr-center .ul-class {
         flex-direction: column;
     }
@@ -3767,10 +3769,10 @@ a.intro-maker-link:hover{
 }
 
 .p-role{
-    font-size: 0.9em;
-    line-height: 1.3em;
+    font-size: 0.95em;
+    line-height: 1.6em;
     color: #fff;
-    font-style: italic;
+    /* font-style: italic; */
     padding-top: 10px;
 }
 .p-txt-list{

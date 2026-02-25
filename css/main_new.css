@@ -177,7 +177,7 @@ body {
 
 /* line 36, ../sass/main_new.scss */
 .column-block {
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
     max-width: 1400px;
     clear: both;

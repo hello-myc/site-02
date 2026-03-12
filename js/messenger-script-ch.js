@@ -38,7 +38,7 @@ const chatData = [
     },   
     {
         type: 'answer',
-        text: 'ChatGPT, Claude, Adobe Creative Suite, Figma, VS Code, GitHub — 網頁前端是用 HTML5, CSS3, and JavaScript.'
+        text: 'ChatGPT，Claude，Adobe Creative Suite，Figma，VS Code，GitHub。網頁前端是用 HTML5，CSS3 以及 JavaScript。'
     },
     {
         type: 'question',
@@ -50,11 +50,11 @@ const chatData = [
     },
     {
         type: 'question',
-        text: '工作之外，你有參與過什麼有趣的專案嗎？'
+        text: '工作之餘，有什麼其他的創作嗎？'
     },   
     {
         type: 'answer',
-        text: '有啊，我曾經設計過 Line 貼圖<br>有興趣可以看看<br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank"><img src="images/sticker.png" alt="line sticker" style="max-width: 30%; height:auto; border-radius: 10px; margin-top: 10px;"></a><br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Line 貼圖 1</a> / <a href="https://store.line.me/stickershop/product/5626577/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Line 貼圖 2</a>'
+        text: '不是很大型的創作，我曾經設計過幾組 Line 貼圖<br>有興趣可以看看<br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank"><img src="images/sticker.png" alt="line sticker" style="max-width: 30%; height:auto; border-radius: 10px; margin-top: 10px;"></a><br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Line 貼圖 1</a> / <a href="https://store.line.me/stickershop/product/5626577/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Line 貼圖 2</a>'
     },
 ];
 const scrollTriggerArea = document.getElementById('scrollTriggerArea');

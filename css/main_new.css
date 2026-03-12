@@ -279,7 +279,7 @@ body {
     /* line 74, ../sass/main_new.scss */ .three-column ul li {
         width: 32%;
         float: left;
-        margin-right: 2%;
+        margin-right: 5%;
         display: block;
         float: left;
         margin-top: 30px;
@@ -371,7 +371,7 @@ h3 {
     width: 100%;
     position: relative;
     /* background: #1c303f; */
-    
+    z-index: 1;
 }
 
 .top-block h1 {
@@ -2879,7 +2879,7 @@ a.txt-link {
     }
 	.two-column.pdr-column.pdr-center {
 		margin-bottom: 50px;
-		padding: 10px 20px;
+		padding: 50px 20px;
 	}	
 	
 }
@@ -4024,4 +4024,24 @@ a.intro-maker-link:hover{
 }
 .award-badge:hover{
     background: #12e7ff;
+}
+
+.lang-switch{
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    z-index: 5;
+}
+.lang-switch a{
+    font-size: 14px;
+    color: #fff;
+    background: #ffffff20;
+    padding: 8px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.lang-switch a:hover{
+    background: #ffffff40;
+    color: #12e7ff;
 }

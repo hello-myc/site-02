@@ -38,7 +38,7 @@ const chatData = [
     },   
     {
         type: 'answer',
-        text: 'Adobe Creative Suite, Figma, VS Code, GitHub — and front-end technologies like HTML5, CSS3, and JavaScript.'
+        text: 'ChatGPT, Claude, Adobe Creative Suite, Figma, VS Code, GitHub — and front-end technologies like HTML5, CSS3, and JavaScript.'
     },
     {
         type: 'question',

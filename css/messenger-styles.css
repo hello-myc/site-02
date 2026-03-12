@@ -92,14 +92,14 @@
     /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
     background: linear-gradient(135deg, #12e7ff 0%, #1fa9ff 100%);
     color: white;
-    font-weight: 300;
+    font-weight: 400;
     border-bottom-right-radius: 5px;
 }
 
 .answer .message-bubble {
     background: #dedede;
     color: #111111;
-    font-weight: 300;
+    font-weight: 400;
     border-bottom-left-radius: 5px;
 }
 

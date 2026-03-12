@@ -2,59 +2,59 @@
 const chatData = [
     {
         type: 'question',
-        text: 'Hey! Please introduce yourself.'
+        text: '嗨! 自我介紹一下吧'
     },
     {
         type: 'answer',
-        text: ' I\'m Ming-Yen, a Visual & Web Designer with a product-focused mindset. I like creating digital experiences that actually work.'
+        text: '我是陳銘彥，視覺與網頁設計師，喜歡設計實際可用、有效的數位體驗。'
     },
     {
         type: 'question',
-        text: 'What kind of projects do you usually work on?'
+        text: '你從事什麼類型的設計？'
     },
     {
         type: 'answer',
-        text: 'From AI creative software and facial recognition platforms to communication tools and sales-driven landing pages — basically anything product-focused.'
+        text: '從 AI 創意軟體、臉部辨識平台，到通訊工具和銷售導向的產品頁面 — 我做的設計大都是以產品為核心的。'
     },
     {
         type: 'question',
-        text: 'So you only design visuals?'
+        text: '你只負責視覺設計的部分嗎？'
     },
     {
         type: 'answer',
-        text: 'No, a bit more than that.<br> I implement and tweak HTML/CSS layouts, modify JavaScript interactions, and make sure designs work smoothly across devices.'
+        text: '其實不止。<br> 我也實作與調整 HTML/CSS 版型、修改 JavaScript，確保設計在不同平台裝置上都能完整呈現。'
     },
     {
         type: 'question',
-        text: 'Do you do content design too?'
+        text: '你也有參與內容設計嗎？'
     },
     {
         type: 'answer',
-        text: 'Yup. I help with SEO-driven initiatives — like building use case pages and creating blog visuals to boost organic reach.'
+        text: '是的，我也參與 SEO 最佳化的專案，像是製作使用情境頁面以及部落格視覺素材，讓流量與曝光度上升。'
     },
     {
         type: 'question',
-        text: 'What tools do you use?'
+        text: '工作上你使用哪些工具？'
     },   
     {
         type: 'answer',
-        text: 'Adobe Creative Suite, Figma, VS Code, GitHub — and front-end technologies like HTML5, CSS3, and JavaScript.'
+        text: 'Adobe Creative Suite, Figma, VS Code, GitHub — 前端技術的話像是 HTML5, CSS3, and JavaScript.'
     },
     {
         type: 'question',
-        text: 'What drives your work?'
+        text: '你工作的動力是什麼？'
     },   
     {
         type: 'answer',
-        text: 'I just enjoy creating digital experiences that feel simple, work well, and make sense for users and the business.'
+        text: '我喜歡設計簡單易用、運作良好，且對使用者與業務都有價值的數位體驗。'
     },
     {
         type: 'question',
-        text: 'Any fun projects outside product work?'
+        text: '工作之外，你有參與過什麼有趣的專案嗎？'
     },   
     {
         type: 'answer',
-        text: 'Yes, I designed Messenger sticker sets. <br>Just a fun way to explore emotions through simple visuals.<br>Feel free to check them out.<br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank"><img src="images/sticker.png" alt="line sticker" style="max-width: 30%; height:auto; border-radius: 10px; margin-top: 10px;"></a><br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Sticker 1</a> / <a href="https://store.line.me/stickershop/product/5626577/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Sticker 2</a>'
+        text: '有啊，我曾經設計過 Line 貼圖<br>有興趣可以看看<br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank"><img src="images/sticker.png" alt="line sticker" style="max-width: 30%; height:auto; border-radius: 10px; margin-top: 10px;"></a><br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Line 貼圖 1</a> / <a href="https://store.line.me/stickershop/product/5626577/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Line 貼圖 2</a>'
     },
 ];
 const scrollTriggerArea = document.getElementById('scrollTriggerArea');

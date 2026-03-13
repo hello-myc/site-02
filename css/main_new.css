@@ -454,7 +454,7 @@ h1 {
 
 @media (min-width: 961px) {
     .top-block {
-        height: 600px;
+        height: 400px;
         width: 100%;
         position: relative;
 /*        background: linear-gradient(60deg,#7600ab 10%,#134bff 40%,#134bff 100%);*/
@@ -2827,7 +2827,7 @@ img.bottom-left-bnr {
 
 @media(min-width: 961px) {
     .top-width {
-        width: 65%;
+        width: 85%;
         position: relative;
         display: flex;
         flex-direction: column;

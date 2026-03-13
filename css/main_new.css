@@ -3774,14 +3774,14 @@ a.intro-maker-link:hover{
     padding-top: 10px;
 }
 .p-txt-list{
-    margin-top: 20px;;
+    margin-bottom: 20px;;
 }
 .p-txt-list ul{
     display: block;
     padding-left: 1em;
 }
 .p-txt-list ul li{
-   /* color:#d6d6d6; */
+   color:#ffffff;
    line-height: 1.5em;
 }
 .p-txt-list ul li::before {

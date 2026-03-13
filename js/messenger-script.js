@@ -6,7 +6,7 @@ const chatData = [
     },
     {
         type: 'answer',
-        text: ' I\'m Ming-Yen, a Visual & Web Designer with a product-focused mindset. I like creating digital experiences that actually work.'
+        text: ' I\'m Ming-Yen, a Visual & Web Designer. '
     },
     {
         type: 'question',
@@ -46,7 +46,7 @@ const chatData = [
     },   
     {
         type: 'answer',
-        text: 'I just enjoy creating digital experiences that feel simple, work well, and make sense for users and the business.'
+        text: 'I just enjoy creating digital experiences that feel simple and work well.'
     },
     {
         type: 'question',

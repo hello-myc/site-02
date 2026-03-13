@@ -6,7 +6,7 @@ const chatData = [
     },
     {
         type: 'answer',
-        text: '我是陳銘彥，視覺與網頁設計師，喜歡設計實際可用、有效的數位體驗。'
+        text: '我是陳銘彥，視覺與網頁設計師。'
     },
     {
         type: 'question',
@@ -46,7 +46,7 @@ const chatData = [
     },   
     {
         type: 'answer',
-        text: '我喜歡設計簡單易用、運作良好，且對使用者與業務都有價值的數位體驗。'
+        text: '我喜歡設計簡單易用、運作良好的數位體驗。'
     },
     {
         type: 'question',

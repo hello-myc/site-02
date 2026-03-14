@@ -2073,7 +2073,7 @@ span.big-font {
 
 .pdr-v-column h2 {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .pdr-v-column p {
@@ -2995,7 +2995,7 @@ transition: .2s;}
 .top-navbar {
     background: #0000002b;
     backdrop-filter: blur(20px);
-    padding: 10px;
+    padding: 10px 0;
     width: 100%;
     overflow: hidden;
     position: fixed;
@@ -3812,7 +3812,7 @@ a.intro-maker-link:hover{
     text-decoration: none;
     color:#ffffff !important;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 12px;
 }
 .anchor-box a:hover{
     color:#7ed3ff !important;
@@ -3823,7 +3823,7 @@ a.intro-maker-link:hover{
         width: 100% !important;
     }
     .anchor-box .btn-box{
-        width: 20% !important;
+        width: 25% !important;
         text-align: center;
         display: flex;
         justify-content: center;
@@ -3949,7 +3949,7 @@ a.intro-maker-link:hover{
 }
 .h2-box h2{
     text-align: right;
-    font-size: 60px;
+    font-size: 45px;
     font-weight: 100;
     color: #ffffff;
     padding: 0 20px;

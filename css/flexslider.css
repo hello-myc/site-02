@@ -236,7 +236,7 @@
 }
 .flex-control-paging{
   display: flex;
-  width: 45%;
+  width: 65%;
   gap: 4px;
   /* margin: 0 auto; */
   padding-top: 30px;

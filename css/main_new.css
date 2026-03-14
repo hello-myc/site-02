@@ -454,7 +454,7 @@ h1 {
 
 @media (min-width: 961px) {
     .top-block {
-        height: 400px;
+        height: 500px;
         width: 100%;
         position: relative;
 /*        background: linear-gradient(60deg,#7600ab 10%,#134bff 40%,#134bff 100%);*/
@@ -1567,7 +1567,7 @@ select.buyPlanSelector option {
     justify-content: center;
     height: auto;
     flex-direction: column;
-    padding: 6vw;
+    padding: 6vw 6vw 0 6vw;
 }
 
 @media (min-width: 769px) {

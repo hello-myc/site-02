@@ -30,7 +30,7 @@ const chatData = [
     },   
     {
         type: 'answer',
-        text: 'ChatGPT, Claude, Adobe Creative Suite, Figma, VS Code, GitHub — and front-end technologies like HTML5, CSS3, and JavaScript.'
+        text: 'I mainly use Adobe Creative Suite, Figma, VS Code, and GitHub. For web development, I work with HTML5, CSS3, and JavaScript. AI-assisted tools I use include ChatGPT and Claude.'
     },
     {
         type: 'question',

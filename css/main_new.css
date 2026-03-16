@@ -3618,7 +3618,7 @@ a .share-block:hover{
   left: 0;
   width: 100%;
   /* min-height: 15%; */
-  background-color: #12e7ffb8;
+  background-color: #12e7ff;
   color: #fff;
   padding: 12px 16px;
   transform: translateY(100%);   /* 藏在下方 */

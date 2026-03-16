@@ -10,51 +10,43 @@ const chatData = [
     },
     {
         type: 'question',
-        text: '你從事什麼類型的設計？'
+        text: '你從事過什麼產品類型？'
     },
     {
         type: 'answer',
-        text: '從 AI 創意軟體、臉部辨識平台，到通訊工具和銷售導向的產品頁面 — 我做的設計大都是以產品為核心的。'
+        text: '主要是網頁設計，經手過的類型從 AI 創意軟體、臉部辨識平台，到通訊工具和銷售用途都有，並且負責相關功能的使用情境視覺。'
     },
     {
         type: 'question',
-        text: '你只負責視覺設計的部分嗎？'
+        text: '你只負責網頁視覺設計的部分嗎？'
     },
     {
         type: 'answer',
-        text: '其實不止。<br> 我也實作與調整 HTML/CSS 版型、修改 JavaScript，確保設計在不同平台裝置上都能完整呈現。'
+        text: '其實不止。我也參與 HTML/CSS 版型開發與調整，加上 JavaScript 動態效果，確保網頁 SEO 最佳化，並且確保設計在不同平台裝置上都能完整呈現。'
     },
     {
         type: 'question',
-        text: '你也有參與內容設計嗎？'
-    },
-    {
-        type: 'answer',
-        text: '是的，我也參與 SEO 最佳化的專案，像是製作使用情境頁面以及部落格視覺素材，讓流量與曝光度上升。'
-    },
-    {
-        type: 'question',
-        text: '工作上你使用哪些工具？'
+        text: '你平常使用的工具有哪些？'
     },   
     {
         type: 'answer',
-        text: 'ChatGPT，Claude，Adobe Creative Suite，Figma，VS Code，GitHub。網頁前端是用 HTML5，CSS3 以及 JavaScript。'
+        text: '大概是 ChatGPT，Claude，Adobe Creative Suite，Figma，VS Code，GitHub。網頁是用 HTML5，CSS3 以及 JavaScript。'
     },
     {
         type: 'question',
-        text: '你工作的動力是什麼？'
+        text: '你喜歡什麼樣的設計？'
     },   
     {
         type: 'answer',
-        text: '我喜歡設計簡單易用、運作良好的數位體驗。'
+        text: '我喜歡簡單易用、能提供良好數位體驗的設計。'
     },
     {
         type: 'question',
-        text: '工作之餘，有什麼其他的創作嗎？'
+        text: '有什麼其他的數位創作嗎？'
     },   
     {
         type: 'answer',
-        text: '不是很大型的創作，我曾經設計過幾組 Line 貼圖<br>有興趣可以看看<br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank"><img src="images/sticker.png" alt="line sticker" style="max-width: 30%; height:auto; border-radius: 10px; margin-top: 10px;"></a><br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Line 貼圖 1</a> / <a href="https://store.line.me/stickershop/product/5626577/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Line 貼圖 2</a>'
+        text: '有一些，工作之餘曾經發表過 Line 貼圖。有興趣可以看看<br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank"><img src="images/sticker.png" alt="line sticker" style="max-width: 30%; height:auto; border-radius: 10px; margin-top: 10px;"></a><br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Line 貼圖 1</a> / <a href="https://store.line.me/stickershop/product/5626577/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Line 貼圖 2</a>'
     },
 ];
 const scrollTriggerArea = document.getElementById('scrollTriggerArea');

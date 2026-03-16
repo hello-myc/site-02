@@ -10,27 +10,19 @@ const chatData = [
     },
     {
         type: 'question',
-        text: 'What kind of projects do you usually work on?'
+        text: 'What kind of projects do you work on?'
     },
     {
         type: 'answer',
-        text: 'From AI creative software and facial recognition platforms to communication tools and sales-driven landing pages — basically anything product-focused.'
+        text: 'My primary focus is web design. I have worked on products ranging from AI creative software and facial recognition platforms to communication tools and sales-oriented products, and was responsible for the visual design of related feature scenarios.'
     },
     {
         type: 'question',
-        text: 'So you only design visuals?'
+        text: 'Do you only handle the visual design for the website?'
     },
     {
         type: 'answer',
-        text: 'No, a bit more than that.<br> I implement and tweak HTML/CSS layouts, modify JavaScript interactions, and make sure designs work smoothly across devices.'
-    },
-    {
-        type: 'question',
-        text: 'Do you do content design too?'
-    },
-    {
-        type: 'answer',
-        text: 'Yup. I help with SEO-driven initiatives — like building use case pages and creating blog visuals to boost organic reach.'
+        text: 'Not exactly. I’m also involved in HTML/CSS layout development and adjustments, as well as implementing JavaScript interactions. I make sure the website is optimized for SEO and that the design is properly presented across different devices and platforms.'
     },
     {
         type: 'question',
@@ -42,19 +34,19 @@ const chatData = [
     },
     {
         type: 'question',
-        text: 'What drives your work?'
+        text: 'What kind of design do you like?'
     },   
     {
         type: 'answer',
-        text: 'I just enjoy creating digital experiences that feel simple and work well.'
+        text: 'I like designs that are simple, easy to use, and provide a good digital experience.'
     },
     {
         type: 'question',
-        text: 'Any fun projects outside product work?'
+        text: 'Do you have any other digital creations?'
     },   
     {
         type: 'answer',
-        text: 'Yes, I designed Messenger sticker sets. <br>Just a fun way to explore emotions through simple visuals.<br>Feel free to check them out.<br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank"><img src="images/sticker.png" alt="line sticker" style="max-width: 30%; height:auto; border-radius: 10px; margin-top: 10px;"></a><br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Sticker 1</a> / <a href="https://store.line.me/stickershop/product/5626577/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Sticker 2</a>'
+        text: 'Yes, I have. Outside of work, I’ve published some LINE stickers. You’re welcome to check them out.<br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank"><img src="images/sticker.png" alt="line sticker" style="max-width: 30%; height:auto; border-radius: 10px; margin-top: 10px;"></a><br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Sticker 1</a> / <a href="https://store.line.me/stickershop/product/5626577/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Sticker 2</a>'
     },
 ];
 const scrollTriggerArea = document.getElementById('scrollTriggerArea');

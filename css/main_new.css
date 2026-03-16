@@ -3988,6 +3988,7 @@ a.intro-maker-link:hover{
 }
 
 .work-card {
+    /* remove or add stacking effect */
     position: sticky;
     top: 35px;
     margin-bottom: 80px;

@@ -34,19 +34,27 @@ const chatData = [
     },
     {
         type: 'question',
-        text: 'What kind of design do you like?'
+        text: 'How does AI support your design work?'
     },   
     {
         type: 'answer',
-        text: 'I like designs that are simple, easy to use, and provide a good digital experience.'
+        text: 'AI helps me reduce repetitive tasks and explore more possibilities in a shorter time. Instead of replacing design thinking, it allows me to focus more on problem-solving and delivering clear, user-centered experiences.'
     },
     {
         type: 'question',
-        text: 'Do you have any other digital creations?'
+        text: 'Which AI tools do you use in your design work?'
     },   
     {
         type: 'answer',
-        text: 'Yes, I have. Outside of work, I’ve published some LINE stickers. You’re welcome to check them out.<br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank"><img src="images/sticker.png" alt="line sticker" style="max-width: 30%; height:auto; border-radius: 10px; margin-top: 10px;"></a><br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Sticker 1</a> / <a href="https://store.line.me/stickershop/product/5626577/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Sticker 2</a>'
+        text: 'I use AI in multiple ways to support my creative process. For image editing and enhancements, I use Photoshop’s AI-powered tools. For generative content like images and videos, I work with AI engines such as Kling, using carefully crafted prompts to guide the output. These tools help me quickly explore ideas, create prototypes, and focus more on the overall user experience rather than repetitive tasks.'
+    },
+    {
+        type: 'question',
+        text: 'Do you have any non-AI digital creations?'
+    },   
+    {
+        type: 'answer',
+        text: 'Yes, I do. Outside of AI-related work, I’ve created a small series of LINE sticker sets. You’re welcome to check them out.<br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank"><img src="images/sticker.png" alt="line sticker" style="max-width: 30%; height:auto; border-radius: 10px; margin-top: 10px;"></a><br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Sticker 1</a> / <a href="https://store.line.me/stickershop/product/5626577/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Sticker 2</a>'
     },
 ];
 const scrollTriggerArea = document.getElementById('scrollTriggerArea');

@@ -52,7 +52,7 @@
 .chat-messages {
     flex: 1;
     padding: 30px 20px;
-    background: #f5f5f5;
+    background: #5d7a9e;
     position: relative;
     min-height: 400px;
 }
@@ -97,7 +97,7 @@
 }
 
 .answer .message-bubble {
-    background: #dedede;
+    background: #ffffff;
     color: #111111;
     font-weight: 400;
     border-bottom-left-radius: 5px;

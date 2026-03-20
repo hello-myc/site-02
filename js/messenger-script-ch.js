@@ -34,19 +34,27 @@ const chatData = [
     },
     {
         type: 'question',
-        text: '你喜歡什麼樣的設計？'
+        text: 'AI 如何幫助你的設計工作？'
     },   
     {
         type: 'answer',
-        text: '我喜歡簡單易用、能提供良好數位體驗的設計。'
+        text: '我認為 AI 能幫助減少重複性工作，並在短時間內探索更多可能性。它不是取代設計思考，而是讓我能更專注在問題解決，以及打造清晰且以使用者為中心的設計體驗。'
     },
     {
         type: 'question',
-        text: '有什麼其他的數位創作嗎？'
+        text: '你在設計工作中會使用哪些 AI 工具？'
     },   
     {
         type: 'answer',
-        text: '有一些，工作之餘曾經發表過 Line 貼圖。有興趣可以看看：<br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank"><img src="images/sticker.png" alt="line sticker" style="max-width: 30%; height:auto; border-radius: 10px; margin-top: 10px;"></a><br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Line 貼圖 1</a> / <a href="https://store.line.me/stickershop/product/5626577/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Line 貼圖 2</a>'
+        text: '我使用許多 AI 來協助我的創作。在圖像編輯與最佳化方面，我使用 Photoshop 的 AI 功能。對於 AI 生成式內容（圖片與影片），我使用像 Kling 這樣的 AI 引擎，並透過精準的propmp指令來達成想要的結果。這些工具幫助我快速探索想法，創建原型，並更專注於整體用戶體驗，而不是重複性任務。'
+    },
+    {
+        type: 'question',
+        text: '有什麼其他非 AI 的數位創作嗎？'
+    },   
+    {
+        type: 'answer',
+        text: '有的。除了 AI 相關工作之外，我曾經創作過一些 Line 貼圖系列。有興趣可以看看：<br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank"><img src="images/sticker.png" alt="line sticker" style="max-width: 30%; height:auto; border-radius: 10px; margin-top: 10px;"></a><br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Line 貼圖 1</a> / <a href="https://store.line.me/stickershop/product/5626577/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Line 貼圖 2</a>'
     },
 ];
 const scrollTriggerArea = document.getElementById('scrollTriggerArea');

@@ -29,8 +29,8 @@ body {
     linear-gradient(
       196deg,
       rgba(21, 62, 104, 1) 0%,
-      rgb(74 74 74) 50%,
-      rgb(68 68 68) 100%
+      rgb(120 114 163) 50%,
+      rgb(36 76 103) 100%
     );
 
   background-position:
@@ -3786,6 +3786,7 @@ a.intro-maker-link:hover{
 .p-txt-list ul li{
    color:#ffffff;
    line-height: 1.5em;
+   font-weight: 400;
 }
 .p-txt-list ul li::before {
     display: inline-block;

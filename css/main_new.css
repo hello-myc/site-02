@@ -3961,7 +3961,7 @@ a.intro-maker-link:hover{
 
   @media (min-width: 961px) {
     .h2-box{
-        height: 130px;
+        height: 80px;
     }
     .h2-box h2{
         height: 100px;
@@ -3973,7 +3973,7 @@ a.intro-maker-link:hover{
 
    .pdr-v-column h2 {
     /* text-align: center; */
-    margin-top: 70px;
+    margin-top: 20px;
     } 
 }
 

@@ -2879,7 +2879,7 @@ a.txt-link {
     }
 	.two-column.pdr-column.pdr-center {
 		margin-bottom: 50px;
-		padding: 50px 20px;
+		padding: 10px 20px;
 	}	
 	
 }
@@ -3992,7 +3992,7 @@ a.intro-maker-link:hover{
 .work-card {
     /* remove or add stacking effect */
     position: sticky;
-    top: 35px;
+    top: 75px;
     margin-bottom: 80px;
     /* background: var(--glass-bg); */
     background: #00000055;

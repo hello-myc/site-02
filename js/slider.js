@@ -1,7 +1,7 @@
-(() => {
-  const track   = document.getElementById('track');
-  const btnPrev = document.getElementById('btnPrev');
-  const btnNext = document.getElementById('btnNext');
+function initSlider(outer) {
+  const track   = outer.querySelector('.slider-track');
+  const btnPrev = outer.querySelector('.btnPrev');
+  const btnNext = outer.querySelector('.btnNext');
   const cards   = Array.from(track.querySelectorAll('.card'));
   const total   = cards.length;
   let current   = 0;
@@ -58,4 +58,8 @@
     clearTimeout(rt);
     rt = setTimeout(measure, 150);
   });
-})();
+  
+}
+document.querySelectorAll('.slider-outer').forEach(outer => initSlider(outer));
+
+

@@ -8,6 +8,7 @@
   --card-bg: #1c1c1e;
   --gap: 30px;
   --card-w: min(450px, 80vw);
+  --card-w2: min(350px, 75vw);
 }
 
 body {
@@ -30,7 +31,7 @@ body {
   padding: 0 0 36px 32px;
 }
 
-/* â”€â”€ Slider â”€â”€ */
+
 .slider-outer { position: relative; }
 
 .slider-viewport {
@@ -46,7 +47,7 @@ body {
 }
 .slider-track.no-anim { transition: none; }
 
-/* â”€â”€ Card â”€â”€ */
+
 .card {
   flex: 0 0 var(--card-w);
   width: var(--card-w);
@@ -56,6 +57,10 @@ body {
   display: flex;
   flex-direction: column;
 }
+.card2 {
+  flex: 0 0 var(--card-w2);
+  width: var(--card-w2);
+}
 
 .card-img {
   width: 100%;
@@ -64,6 +69,10 @@ body {
   background: #111;
   flex-shrink: 0;
 }
+.card-img2 {
+  aspect-ratio: 5/8;
+}
+
 
 .card-img img {
   width: 100%;
@@ -85,7 +94,7 @@ body {
   font-weight: 600;
 }
 
-/* â”€â”€ Controls: right-aligned â”€â”€ */
+
 .slider-controls {
   display: flex;
   justify-content: flex-end;
@@ -106,7 +115,10 @@ body {
   justify-content: center;
   transition: background .2s, opacity .2s;
 }
-.btn:hover:not(:disabled) { background: #585858; color: #12e7ff;}
+.btn:hover:not(:disabled) { 
+  /* background: #585858;  */
+  color: #12e7ff;
+}
 .btn:disabled { opacity: .35; cursor: default; }
 
 .btn svg {
@@ -116,10 +128,9 @@ body {
   stroke-linecap: round; stroke-linejoin: round;
 }
 
-/* â”€â”€ Mobile â”€â”€ */
+
 @media (max-width: 600px) {
   :root {
-    /* padL=24pxï¼Œcard å³é‚Šç·£å‰›å¥½è²¼åˆ°èž¢å¹•å³å´ï¼Œä¸‹ä¸€å¼µå®Œå…¨ä¸éœ² */
     --card-w: calc(100vw - 50px);
     --gap: 12px;
   }

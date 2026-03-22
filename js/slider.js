@@ -51,6 +51,19 @@ function initSlider(outer) {
   btnPrev.addEventListener('click', () => goTo(current - 1));
   btnNext.addEventListener('click', () => goTo(current + 1));
 
+  // ── Touch swipe（mobile）──
+const viewport = document.getElementById('viewport');
+let touchStartX = 0;
+
+viewport.addEventListener('touchstart', e => {
+  touchStartX = e.touches[0].clientX;
+}, { passive: true });
+
+viewport.addEventListener('touchend', e => {
+  const delta = e.changedTouches[0].clientX - touchStartX;
+  if (delta < -50) goTo(current + 1);
+  else if (delta > 50) goTo(current - 1);
+});
   measure();
 
   let rt;

@@ -10,23 +10,18 @@ function initSlider(outer) {
   let padL      = 0;
   let maxOffset = 0;
 
-  // 在 transform 歸零的狀態下量測，確保數值準確
   function measure() {
     track.classList.add('no-anim');
     track.style.transform = 'translateX(0)';
 
-    // 等瀏覽器 reflow 完再量
     requestAnimationFrame(() => {
       cardW = cards[0].getBoundingClientRect().width;
       gap   = parseFloat(getComputedStyle(track).gap) || 12;
       padL  = parseFloat(getComputedStyle(track).paddingLeft) || 32;
 
-      // track 左邊緣（此時 transform = 0，讀到的就是真實原點）
       const trackOriginLeft = track.getBoundingClientRect().left;
       const availW = window.innerWidth - trackOriginLeft;
 
-      // 最後一張右邊緣距螢幕右側 = padL
-      // padL + total*cardW + (total-1)*gap - maxOffset = availW - padL
       maxOffset = Math.max(0, 2 * padL + total * cardW + (total - 1) * gap - availW);
 
       track.classList.remove('no-anim');
@@ -45,25 +40,25 @@ function initSlider(outer) {
     track.style.transform = `translateX(-${offset}px)`;
     if (!animate) requestAnimationFrame(() => track.classList.remove('no-anim'));
     btnPrev.disabled = current === 0;
-    btnNext.disabled = getOffset(current + 1) >= maxOffset && offset >= maxOffset;
+    btnNext.disabled = offset >= maxOffset;
   }
 
   btnPrev.addEventListener('click', () => goTo(current - 1));
   btnNext.addEventListener('click', () => goTo(current + 1));
 
   // ── Touch swipe（mobile）──
-const viewport = document.getElementById('viewport');
-let touchStartX = 0;
+  let touchStartX = 0;
 
-viewport.addEventListener('touchstart', e => {
-  touchStartX = e.touches[0].clientX;
-}, { passive: true });
+  track.addEventListener('touchstart', e => {
+    touchStartX = e.touches[0].clientX;
+  }, { passive: true });
 
-viewport.addEventListener('touchend', e => {
-  const delta = e.changedTouches[0].clientX - touchStartX;
-  if (delta < -50) goTo(current + 1);
-  else if (delta > 50) goTo(current - 1);
-});
+  track.addEventListener('touchend', e => {
+    const delta = e.changedTouches[0].clientX - touchStartX;
+    if (delta < -50) goTo(current + 1);
+    else if (delta > 50) goTo(current - 1);
+  });
+
   measure();
 
   let rt;
@@ -71,8 +66,6 @@ viewport.addEventListener('touchend', e => {
     clearTimeout(rt);
     rt = setTimeout(measure, 150);
   });
-  
 }
+
 document.querySelectorAll('.slider-outer').forEach(outer => initSlider(outer));
-
-

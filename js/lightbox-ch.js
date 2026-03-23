@@ -50,7 +50,7 @@ const cardData = {
   card9: {
     eyebrow: "Project Overview",
     title: "Feature graphic design.",
-    body: "Feature images showcase how the product introduces new possibilities to clients.<br> The challenge is not only to present visually compelling results, but also to communicate that users can easily create them themselves.",
+    body: "Feature images demonstrate the powerful and sometimes surreal results of layer editing, while ensuring users understand these effects are easy to recreate.",
     image: "images/visual/logo-visual-1024-layer.jpg"
   }
 };

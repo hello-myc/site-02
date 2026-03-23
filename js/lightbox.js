@@ -26,7 +26,7 @@ const cardData = {
   card5: {
     eyebrow: "Project Overview",
     title: "App store image style design.",
-    body: "Visual assets for PowerDirector in the app store.<br> Created a cohesive image style for PowerDirector's app store presence, ensuring consistency across all visual assets and enhancing brand recognition.",
+    body: "App Store Promotional Visuals for PowerDirector.<br> Created a cohesive image style for PowerDirector's app store presence, ensuring consistency across all visual assets and enhancing brand recognition.",
     image: "images/visual/logo-visual-1024-app.webp"
   },
   card6: {

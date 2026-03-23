@@ -203,8 +203,12 @@
 }
 
 @media (max-width: 600px) {
+  .modal{
+    padding:30px 20px;
+  }
   .modal-inner {
     flex-direction: column;
+    gap:0px;
   }
 
   #modal-image {
@@ -216,6 +220,7 @@
   flex: 1;
   min-width: 0;
   border: none;
+  background: none;
 }
 
 #modal-image {

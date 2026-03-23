@@ -204,15 +204,17 @@
 
 @media (max-width: 600px) {
   .modal{
-    padding:30px 20px;
+    padding:48px 20px;
   }
   .modal-inner {
     flex-direction: column;
     gap:0px;
+    align-items: center;
   }
 
   #modal-image {
-    width: 100%;
+    width: 75vw !important;
+    height: 75vw;
   }
 }
 

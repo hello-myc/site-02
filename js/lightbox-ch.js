@@ -20,7 +20,7 @@ const cardData = {
   card4: {
     eyebrow: "Project Overview",
     title: "Logo renew proposal.",
-    body: "Design proposals for CyberLink's main logo.<br> After more than 20 years in the industry, CyberLink aimed to refresh the logo—innovating while retaining its familiar look, rather than creating a completely new design..",
+    body: "Design proposals for CyberLink's main logo.<br> After more than 20 years in the industry, CyberLink aimed to refresh the logo—innovating while retaining its familiar look, rather than creating a completely new design.",
     image: "images/visual/logo-visual-1024-cl.jpg"
   },
   card5: {

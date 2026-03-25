@@ -400,9 +400,9 @@ h3 {
 
 @media (min-width: 960px) {
     .top-block h1 {
-        font-size: 100px;
+        font-size: 120px;
         margin-left: 0;
-        padding: 20px 0;
+        padding: 40px 0;
 /*        margin: 20px 0;*/
     }
 }
@@ -454,7 +454,7 @@ h1 {
 
 @media (min-width: 961px) {
     .top-block {
-        height: 500px;
+        height: 350px;
         width: 100%;
         position: relative;
 /*        background: linear-gradient(60deg,#7600ab 10%,#134bff 40%,#134bff 100%);*/
@@ -2827,11 +2827,11 @@ img.bottom-left-bnr {
 
 @media(min-width: 961px) {
     .top-width {
-        width: 85%;
+        width: 100%;
         position: relative;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
     }
 }
 

@@ -64,6 +64,12 @@ const cardData = {
     title: "Video template visual design.",
     body: "Template visuals showcase the kinds of results users can create with video editing.",
     image: "images/visual/logo-visual-1024-template.webp"
+  },
+  card12: {
+    eyebrow: "Project Overview",
+    title: "Feature graphic design.",
+    body: "Feature graphics demonstrate the powerful and sometimes surreal results of layer editing, while ensuring users understand these effects are easy to recreate.",
+    image: "images/visual/logo-visual-1024-layer2.webp"
   }
 };
 

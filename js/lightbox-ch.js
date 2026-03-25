@@ -52,6 +52,18 @@ const cardData = {
     title: "Feature graphic design.",
     body: "Feature images demonstrate the powerful and sometimes surreal results of layer editing, while ensuring users understand these effects are easy to recreate.",
     image: "images/visual/logo-visual-1024-layer.webp"
+  },
+  card10: {
+    eyebrow: "Project Overview",
+    title: "AI feature visual design.",
+    body: "Feature visuals showcase AI video editing functionalities, illustrating how users can achieve similar effects while highlighting that some visuals are conceptual.",
+    image: "images/visual/logo-visual-1024-ai-feature.webp"
+  },
+  card11: {
+    eyebrow: "Project Overview",
+    title: "Video template visual design.",
+    body: "Template visuals showcase the kinds of results users can create with video editing.",
+    image: "images/visual/logo-visual-1024-template.webp"
   }
 };
 

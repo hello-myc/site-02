@@ -55,8 +55,8 @@ const cardData = {
   },
   card10: {
     eyebrow: "Project Overview",
-    title: "AI feature visual design.",
-    body: "Feature visuals showcase AI video editing functionalities, illustrating how users can achieve similar effects while highlighting that some visuals are conceptual.",
+    title: "AI video feature visual design.",
+    body: "Feature visuals showcase AI video editing functionalities, illustrating how users can achieve similar effects at their fingertips.",
     image: "images/visual/logo-visual-1024-ai-feature.webp"
   },
   card11: {

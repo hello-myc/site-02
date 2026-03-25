@@ -1,74 +1,74 @@
 const cardData = {
   card1: {
     eyebrow: "Project Overview",
-    title: "App logo design.",
-    body: "Selected as the official logo for the communication suite. <br>U Communication Suite is a platform for online meetings, webinars, and messaging.",
+    title: "應用程式 logo 設計",
+    body: "獲選為 U 整合通訊的官方 logo。<br>U 整合通訊是一個集線上會議、視訊網路研討會及即時通訊於一體的平台。",
     image: "images/visual/logo-visual-1024-u.webp"
   },
   card2: {
     eyebrow: "Project Overview",
-    title: "App logo design.",
-    body: "Selected as the official logo for DirectorZone.<br>DirectorZone is a web platform for CyberLink registered users to connect, share ideas, and access free downloadable content.",
+    title: "應用程式 logo 設計",
+    body: "獲選為 DirectorZone 的官方 logo。<br>DirectorZone 是訊連科技 (CyberLink) 為註冊用戶打造的網頁平台，提供社群互動、創意分享以及免費內容下載。",
     image: "images/visual/logo-visual-1024-dz.webp"
   },
   card3: {
     eyebrow: "Project Overview",
-    title: "Product page design.",
-    body: "Product page design for PhotoDirector.<br>Aligned with marketing and product teams on strategy and direction before developing design drafts. Used Figma as a collaborative tool to gather feedback before final execution.",
+    title: "產品頁面設計",
+    body: "相片大師 (PhotoDirector) 產品頁面設計。<br>在開發設計草稿前，與行銷及產品團隊針對策略與方向達成共識，並使用 Figma 作為協作工具，並在定案前整合各方意見回饋並進行最佳化。",
     image: "images/visual/logo-visual-1024-phd.webp"
   },
   card4: {
     eyebrow: "Project Overview",
-    title: "Logo renew proposal.",
-    body: "Design proposals for CyberLink's main logo.<br> After more than 20 years in the industry, CyberLink aimed to refresh the logo—innovating while retaining its familiar look, rather than creating a completely new design.",
+    title: "Logo 更新提案",
+    body: "訊連科技 (CyberLink) 品牌識別更新提案。<br>針對具備20年品牌歷史的訊連科技進行 Logo 調整。設計策略聚焦於演進而非革命，在維持既有品牌連結的同時注入創新元素，達成視覺上的更新。",
     image: "images/visual/logo-visual-1024-cl.webp"
   },
   card5: {
     eyebrow: "Project Overview",
-    title: "App store image style design.",
-    body: "App Store Promotional Visuals for PowerDirector.<br> Created a cohesive image style for PowerDirector's app store presence, ensuring consistency across all visual assets and enhancing brand recognition.",
+    title: "應用程式商店視覺設計",
+    body: "威力導演 (PowerDirector) 在應用程式商店上的廣告視覺。<br>為威力導演在應用程式商店的呈現一致性的視覺風格，不僅強化了品牌辨識度，也提升了整體產品形象。",
     image: "images/visual/logo-visual-1024-app.webp"
   },
   card6: {
     eyebrow: "Project Overview",
-    title: "Product page design.",
-    body: "Product page design for PowerDVD.<br>Aligned with marketing and product teams on strategy and direction before developing design drafts. Used Figma as a collaborative tool to gather feedback before final execution.",
+    title: "產品頁面設計",
+    body: "PowerDVD 產品頁面設計。<br>在開發設計草稿前，與行銷及產品團隊針對策略與方向達成共識，並使用 Figma 作為協作工具，並在定案前整合各方意見回饋並進行最佳化。",
     image: "images/visual/logo-visual-1024-pdvd.webp"
   },
   card7: {
     eyebrow: "Project Overview",
-    title: "Product page design.",
-    body: "Product page design for AudioDirector.<br>Aligned with marketing and product teams on strategy and direction before developing design drafts. Used Figma as a collaborative tool to gather feedback before final execution.",
+    title: "產品頁面設計",
+    body: "AudioDirector 產品頁面設計。<br>在開發設計草稿前，與行銷及產品團隊針對策略與方向達成共識，並使用 Figma 作為協作工具，並在定案前整合各方意見回饋並進行最佳化。",
     image: "images/visual/logo-visual-1024-adr.webp"
   },
   card8: {
     eyebrow: "Project Overview",
-    title: "AI generated content.",
-    body: "AI has been integrated into the product and extensively applied across various design assets, including visuals and illustrations, while continuously fine-tuning it to maximize its effectiveness.",
+    title: "AI 生成內容",
+    body: "主導 AI 技術在產品與各類設計資產（如視覺影像、插畫）中的深度應用。透過持續的參數微調與流程最佳化，大幅提升設計產出效能並確保視覺品質。",
     image: "images/visual/logo-visual-1024-ai.webp"
   },
   card9: {
     eyebrow: "Project Overview",
-    title: "Feature graphic design.",
-    body: "Feature images demonstrate the powerful and sometimes surreal results of layer editing, while ensuring users understand these effects are easy to recreate.",
+    title: "產品功能視覺設計",
+    body: "透過功能視覺圖來傳達圖層編輯技術能創造的震撼與超現實美感。設計策略在於平衡「強大的功能性」與「簡單的操作感」，讓使用者在被視覺吸引的同時，對產品的易用性產生信心。",
     image: "images/visual/logo-visual-1024-layer.webp"
   },
   card10: {
     eyebrow: "Project Overview",
-    title: "AI feature visual design.",
-    body: "Feature visuals showcase AI video editing functionalities, illustrating how users can achieve similar effects while highlighting that some visuals are conceptual.",
+    title: "AI 影片編輯視覺設計",
+    body: "AI 編輯功能的視覺設計。著重在於將複雜的 AI 應用轉化為更直覺的視覺說明，讓用戶感受到只需簡單步驟，就能產出高質量的影片內容。",
     image: "images/visual/logo-visual-1024-ai-feature.webp"
   },
   card11: {
     eyebrow: "Project Overview",
-    title: "Video template visual design.",
-    body: "Template visuals showcase the kinds of results users can create with video editing.",
+    title: "影片模板視覺設計",
+    body: "設計一系列影片模板視覺，直覺地向使用者展示影片編輯工具的實際應用潛力與產出品質。",
     image: "images/visual/logo-visual-1024-template.webp"
   },
   card12: {
     eyebrow: "Project Overview",
-    title: "Feature graphic design.",
-    body: "Feature graphics demonstrate the powerful and sometimes surreal results of layer editing, while ensuring users understand these effects are easy to recreate.",
+    title: "產品功能視覺設計",
+    body: "透過功能視覺圖來傳達圖層編輯技術能創造的震撼與超現實美感。設計策略在於平衡「強大的功能性」與「簡單的操作感」，讓使用者在被視覺吸引的同時，對產品的易用性產生信心。",
     image: "images/visual/logo-visual-1024-layer2.webp"
   }
 };

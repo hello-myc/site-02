@@ -70,6 +70,12 @@ const cardData = {
     title: "產品功能視覺設計",
     body: "透過功能視覺圖來傳達圖層編輯技術能創造的震撼與超現實美感。設計策略在於平衡「強大的功能性」與「簡單的操作感」，讓使用者在被視覺吸引的同時，對產品的易用性產生信心。",
     image: "images/visual/logo-visual-1024-layer2.webp"
+  },
+  card13: {
+    eyebrow: "專案簡介",
+    title: "使用情境頁面設計",
+    body: "使用情境頁面展示產品在現實世界中的應用，為用戶提供實用的範例和情境。",
+    image: "images/visual/logo-visual-1024-use.webp"
   }
 };
 

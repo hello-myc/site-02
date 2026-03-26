@@ -70,6 +70,12 @@ const cardData = {
     title: "Feature graphic design.",
     body: "Feature graphics demonstrate the powerful and sometimes surreal results of layer editing, while ensuring users understand these effects are easy to recreate.",
     image: "images/visual/logo-visual-1024-layer2.webp"
+  },
+  card13: {
+    eyebrow: "Project Overview",
+    title: "Use case page design.",
+    body: "Use case pages showcase real-world applications of the product, providing users with practical examples and scenarios.",
+    image: "images/visual/logo-visual-1024-use.webp"
   }
 };
 

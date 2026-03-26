@@ -3323,7 +3323,7 @@ z-index: 9;}
     display: block;
     font-size: 16px;
 	line-height: 24px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     color:#fff;
     padding-left: .2em;
     /* font-weight: 400; */
@@ -4043,15 +4043,15 @@ a.intro-maker-link:hover{
 .lang-switch{
     display: block;
     position: absolute;
-    top: 20px;
+    top: 10px;
     right: 10px;
     z-index: 5;
 }
 .lang-switch a{
-    font-size: 14px;
+    font-size: 13px;
     color: #fff;
     background: #ffffff20;
-    padding: 8px 20px;
+    padding: 6px 20px;
     border-radius: 30px;
     text-decoration: none;
 }

@@ -3822,6 +3822,13 @@ a.intro-maker-link:hover{
     color:#7ed3ff !important;
 }
 
+.anchor-box .btn-lang a{
+    background: #ffffff3b;
+    padding: 8px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
 @media (max-width: 768px) {
     .anchor-box{
         width: 100% !important;
@@ -3833,6 +3840,9 @@ a.intro-maker-link:hover{
         justify-content: center;
         align-items: center;
         /* flex-flow: column; */
+    }
+    .anchor-box .btn-lang a{
+        padding: 2px 12px;
     }
 }
 

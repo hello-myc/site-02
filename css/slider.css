@@ -48,15 +48,21 @@ body {
 .slider-track.no-anim { transition: none; }
 
 
+
 .card {
   flex: 0 0 var(--card-w);
   width: var(--card-w);
-  border-radius: 18px;
+  border-radius: 17px;        /* 比 wrap 少 1px */
   overflow: hidden;
   background: var(--card-bg);
   display: flex;
   flex-direction: column;
+  position: relative;
+  z-index: 1;                 /* 在兩個 pseudo-element 上面 */
+
+
 }
+
 .card2 {
   flex: 0 0 var(--card-w2);
   width: var(--card-w2);

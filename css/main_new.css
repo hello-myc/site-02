@@ -486,7 +486,7 @@ h1 {
     font-size: 12px;
     line-height: 20px;
     padding: 20px 0;
-    background: #001c2f;
+    background: #000000;
     color: #ffffff;
     width: 100%;
     box-sizing: border-box;
@@ -835,43 +835,8 @@ a.btn {
     /* text-transform: uppercase; */
 /*    float: left;*/
 }
-a.resume-btn{
-    width: 150px;
-    height: 150px;
-    font-size: 22px;
-    border-radius: 100px;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
-}
 
-@media (min-width: 960px) {
-    a.resume-btn{
-        width: 200px;
-        height: 200px;
-        font-size: 24px;
-    }
-}
 
-a.btn:hover {
-    background: #000000;
-}
-
-a.btn.btn-free:hover {
-/*    background: #FFC107;*/
-	background: #015EF7;
-    color: #ffffff !important;	
-}
-
-a.btn.btn-free {
-    background: #00ffff;
-    margin-bottom: 20px;
-}
-
-@media (min-width: 768px) {
-    a.btn.btn-free {
-        background: #00ffff;
-        margin-bottom: 0px;
-    }
-}
 
 a.buy-btn.btn-orange:hover {
     background: #8a00ff;
@@ -2382,50 +2347,96 @@ li.pdr-txt {
     /* width: calc(55% - 40px) !important; */
 }
 
-.badge-block {
-/*    margin: 0px;*/
+.contact-block {
     width: 100%;
     min-height: 300px;
     display: flex;
-/*    flex-direction: row;*/
-/*    position: relative;*/
+    flex-direction: column;
 	justify-content: center;
-    padding-top: 30px;
+    /* padding-top: 30px; */
+}
+
+.contact-block .resume-btn {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.resume-btn a{
+  position: relative;
+  /* z-index: 1; */
+  width: 150px;
+  height: 150px;
+  font-size: 22px;
+  font-weight: 400;
+  border-radius: 100px;
+  background: linear-gradient(342deg, #000 60% 40%, #43474b 100%);
+  display: flex;            
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #12e7ff;
+
+  --x: 50%;
+  --y: 50%;
+  --glow-color: 18, 231, 255;
+  outline: 1px solid rgba(255,255,255,0);
+  transition: outline-color 0.35s ease; 
+}
+
+.resume-btn a::before {
+  content: '';
+  position: absolute;
+  inset: -2px;               /* 略微超出 border 位置 */
+  border-radius: inherit;
+  background: radial-gradient(
+    120px circle at var(--x) var(--y),
+    rgba(var(--glow-color), 1),
+    transparent 100%
+  );
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  z-index: -1;               /* 在 background 後面，邊緣才看得到 */
+  pointer-events: none;
+}
+
+.resume-btn a:hover::before { opacity: 1; }
+
+.resume-btn a span {
+  display: inline-block;
+  letter-spacing: 0em;
+  transition: letter-spacing 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.resume-btn a:hover span {
+  letter-spacing: 0.12em;
+}
+
+@media (min-width: 960px) {
+    .contact-block {
+        flex-direction: row;
+    }
+
+    .resume-btn a{
+        width: 200px;
+        height: 200px;
+        font-size: 24px;
+    }
+}
+
+a.btn:hover {
+    background: #000000;
 }
 
 @media (min-width: 961px) {
-	.badge-block {justify-content: flex-start;}
+	.contact-block {justify-content: flex-start;}
 }
 
 
-@media (max-width: 600px) {
-    .badge-block {
-        /* margin: 20px; */
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        position: relative;
-    }
-    .badge-block .btn-box{
-        margin-bottom: 20px;
-    }
-}
 
-
-.badge-block img {
-    display: inline-block;
-    width: 200px;
-    height: 66px;
-    padding: 5px;
-}
-@media (min-width: 661px) {
- .badge-block img {
-    display: inline-block;
-    width: 100%;
-    height:auto;
-    padding: 5px;
-}   
-}
 .qr_block {
     position: absolute;
     bottom: 0;
@@ -2955,8 +2966,9 @@ a.txt-link {
 }
 
 .btn-box {
-    padding: 0 10px;
+    padding: 0 10px;    
 }
+
 
 .FAQ-section .FAQ-list .FAQ-line p a {
     text-decoration: none;

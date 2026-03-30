@@ -850,14 +850,14 @@ function scrollFunction() {
 	<div class="two-column pdr-column pdr-center bottom-app-banner">	
 
 		<div class="contact-block">
-			<div class="btn-block"><div class="btn-box">
-				<a href="pdf/mingyenchen_resume_ch.pdf" target="_blank" class="btn resume-btn">Resume</a></div>
+			<div class="resume-btn">
+				<a href="pdf/mingyenchen_resume_en.pdf" target="_blank" ><span>Resume</span></a>
 			</div>
-			<div class="btn-block"><div class="btn-box">
-				<a href="mailto:hellobooker@gmail.com" class="btn resume-btn">Email</a></div>
+			<div class="resume-btn">
+				<a href="mailto:hellobooker@gmail.com" ><span>Email</span></a>
 			</div>
-			<div class="btn-block"><div class="btn-box">
-				<a href="https://www.linkedin.com/in/mingyen-chen/" target="_blank" class="btn resume-btn">Linkedin</a></div>
+			<div class="resume-btn">
+				<a href="https://www.linkedin.com/in/mingyen-chen/" target="_blank" ><span>Linkedin</span></a>
 			</div>
 		</div>
 
@@ -899,5 +899,14 @@ function scrollFunction() {
 <script src="js/messenger-script-ch.js"></script>
 <script src="js/slider.js"></script>
 <script src="js/lightbox-ch.js"></script>
+<script>
+document.addEventListener('mousemove', e => {
+  document.querySelectorAll('.resume-btn a').forEach(btn => {
+    const { left, top } = btn.getBoundingClientRect();
+    btn.style.setProperty('--x', (e.clientX - left) + 'px');
+    btn.style.setProperty('--y', (e.clientY - top) + 'px');
+  });
+});
+</script>
 </body>
 </html>

@@ -25,7 +25,7 @@ const cardData = {
   },
   card5: {
     eyebrow: "Project Overview",
-    title: "App store image style design.",
+    title: "App store feature graphics.",
     body: "App Store Promotional Visuals for PowerDirector.<br> Created a cohesive image style for PowerDirector's app store presence, ensuring consistency across all visual assets and enhancing brand recognition.",
     image: "images/visual/logo-visual-1024-app.webp"
   },
@@ -73,8 +73,8 @@ const cardData = {
   },
   card13: {
     eyebrow: "Project Overview",
-    title: "Use case page design.",
-    body: "Use case pages showcase real-world applications of the product, providing users with practical examples and scenarios.",
+    title: "SEO use case page design.",
+    body: "Use case pages showcase real-world applications of the product, providing users with practical examples and scenarios. Each page is designed with targeted SEO goals, aligning content with specific user intents to improve search visibility and engagement.",
     image: "images/visual/logo-visual-1024-use.webp"
   }
 };

@@ -73,8 +73,8 @@ const cardData = {
   },
   card13: {
     eyebrow: "專案簡介",
-    title: "使用情境頁面設計",
-    body: "使用情境頁面展示產品在現實世界中的應用，為用戶提供實用的範例和情境。",
+    title: "SEO 使用情境頁面設計",
+    body: "使用情境頁面呈現產品在真實情境中的應用，提供具體案例與操作場景，並針對明確的 SEO 目標進行最佳化，以提升搜尋能見度。",
     image: "images/visual/logo-visual-1024-use.webp"
   }
 };

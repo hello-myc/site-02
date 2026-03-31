@@ -217,6 +217,7 @@
   }
 
   #modal-image {
+    display: none !important;
     width: 75vw !important;
     height: 75vw;
     object-position: top; 

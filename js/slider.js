@@ -70,10 +70,3 @@ function initSlider(outer) {
 
 document.querySelectorAll('.slider-outer').forEach(outer => initSlider(outer));
 
-document.addEventListener('mousemove', e => {
-  document.querySelectorAll('.card').forEach(card => {
-    const { left, top } = card.getBoundingClientRect();
-    card.style.setProperty('--x', (e.clientX - left) + 'px');
-    card.style.setProperty('--y', (e.clientY - top)  + 'px');
-  });
-});

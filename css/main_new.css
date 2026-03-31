@@ -3834,7 +3834,9 @@ a.intro-maker-link:hover{
 .anchor-box a:hover{
     color:#7ed3ff !important;
 }
-
+.anchor-box a.active {
+  color: #7ed3ff !important;
+}
 .anchor-box .btn-lang a{
     background: #ffffff3b;
     padding: 8px 20px;

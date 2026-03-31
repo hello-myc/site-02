@@ -2373,7 +2373,8 @@ li.pdr-txt {
   font-size: 22px;
   font-weight: 400;
   border-radius: 100px;
-  background: linear-gradient(342deg, #000 60% 40%, #43474b 100%);
+  /* background: linear-gradient(342deg, #000 60% 40%, #43474b 100%); */
+  background: #111111;
   display: flex;            
   align-items: center;
   justify-content: center;
@@ -2415,7 +2416,7 @@ li.pdr-txt {
   letter-spacing: 0.12em;
 }
 
-@media (min-width: 960px) {
+@media (min-width: 800px) {
     .contact-block {
         flex-direction: row;
     }

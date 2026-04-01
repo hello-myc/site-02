@@ -42,3 +42,4 @@ $('.js-anchor-link').click(function(e){
 // });
 
 // sections.forEach(section => observer.observe(section));
+

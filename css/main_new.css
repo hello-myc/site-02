@@ -319,9 +319,9 @@ h2 {
 /* line 120, ../sass/main_new.scss */
 h3 {
     padding: 20px 0 20px 0 !important;
-    font-size: 20px;
-    line-height: 30px;
-    font-weight: 600 ;
+    font-size: 28px;
+    line-height: 36px;
+    /* font-weight: 600 ; */
     margin: 0px;
     color: #ffffff;
     text-align: center !important;
@@ -353,7 +353,7 @@ h3 {
 }
 @media (min-width: 961px) {
     h3 {
-        font-size: 28px;
+        font-size: 36px;
     }   
 	.txt-align-l h3{
 		text-align: left !important;

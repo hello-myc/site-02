@@ -911,12 +911,12 @@ a.btn.btn_learnmore:hover {
     }
 
     .pdr-txt {
-        order: 2;
+        order: 1;
         /* padding:0 30px !important; */
     }
 
     .pdr-vid {
-        order: 1;
+        order: 2;
     }
     .pdr-vid-b {
         order: 3 !important;
@@ -2730,7 +2730,8 @@ img.top-right-bnr {
 .pdr-vid {
     box-shadow: none !important;
     /* width: calc(45% - 40px) !important; */
-    padding: 10px ;
+    padding: 20px ;
+    padding-bottom: 1px;
 }
 
 @media(min-width: 768px) {
@@ -2860,6 +2861,7 @@ img.bottom-left-bnr {
 /*    margin: 40px auto !important;*/
 		margin-top: 0px;
 		padding: 20px 0;	
+        padding-bottom: 1px;
 }
 
 img.arrow_down {

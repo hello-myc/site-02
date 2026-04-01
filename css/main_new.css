@@ -240,11 +240,11 @@ body {
     }
     .two-column ul li.pdr-txt {
         /* width: calc(40% - 40px); */
-        width: 35%;
+        width:45%;
     }
     .two-column ul li.pdr-vid {
         /* width: calc(60% - 40px); */
-        width: 65%;
+        width: 55%;
     }
 
     .three-column-ds01 {
@@ -2738,6 +2738,7 @@ img.top-right-bnr {
         box-shadow: none !important;
         /* width: calc(45% - 40px) !important; */
         padding: 30px;
+        padding-bottom: 0px;
     }
 }
 
@@ -2892,6 +2893,7 @@ a.txt-link {
 	.two-column.pdr-column.pdr-center {
 		margin-bottom: 50px;
 		padding: 10px 20px;
+        padding-bottom: 1px;
 	}	
 	
 }

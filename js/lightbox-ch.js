@@ -76,6 +76,12 @@ const cardData = {
     title: "SEO 使用情境頁面設計",
     body: "使用情境頁面呈現產品在真實情境中的應用，提供具體案例與操作場景，並針對明確的 SEO 目標進行最佳化，以提升搜尋能見度。",
     image: "images/visual/logo-visual-1024-use.webp"
+  },
+  card14: {
+    eyebrow: "專案簡介",
+    title: "標準字設計",
+    body: "獲選為 Moovielive 的官方品牌標準字。<br>Moovielive 是 PowerDVD 的擴展服務，提供電影資訊和可下載內容。",
+    image: "images/visual/moovielive_logo.webp"
   }
 };
 

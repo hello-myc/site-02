@@ -76,6 +76,12 @@ const cardData = {
     title: "SEO use case page design.",
     body: "Use case pages showcase real-world applications of the product, providing users with practical examples and scenarios. Each page is designed with targeted SEO goals, aligning content with specific user intents to improve search visibility and engagement.",
     image: "images/visual/logo-visual-1024-use.webp"
+  },
+  card14: {
+    eyebrow: "Project Overview",
+    title: "Logotype design.",
+    body: "Selected as the official logotype for the the Moovielive website. Moovielive is a extensive service of PowerDVD for movie information and downloadable content.",
+    image: "images/visual/moovielive_logo.webp"
   }
 };
 

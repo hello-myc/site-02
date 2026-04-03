@@ -319,7 +319,7 @@ h2 {
 /* line 120, ../sass/main_new.scss */
 h3 {
     padding: 20px 0 20px 0 !important;
-    font-size: 28px;
+    font-size: 22px;
     line-height: 36px;
     /* font-weight: 600 ; */
     margin: 0px;
@@ -4012,7 +4012,7 @@ a.intro-maker-link:hover{
 
 /* Recent Works - Overlapping Cards with Liquid Glass */
 .recent-works-container {
-    /* max-width: 1000px; */
+    max-width: 1500px;
     margin: 0 auto;
     padding-top: 30px;
     /* padding-bottom: 200px; */

@@ -353,7 +353,7 @@ h3 {
 }
 @media (min-width: 961px) {
     h3 {
-        font-size: 36px;
+        font-size: 32px;
     }   
 	.txt-align-l h3{
 		text-align: left !important;

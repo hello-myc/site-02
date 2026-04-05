@@ -40,14 +40,14 @@ const chatData = [
         type: 'answer',
         text: 'AI helps me reduce repetitive tasks and explore more possibilities in a shorter time. Instead of replacing design thinking, it allows me to focus more on problem-solving and delivering clear, user-centered experiences.'
     },
-    {
-        type: 'question',
-        text: 'Which AI tools do you use in your design work?'
-    },   
-    {
-        type: 'answer',
-        text: 'I use AI in multiple ways to support my creative process. For image editing and enhancements, I use Photoshop’s AI-powered tools. For generative content like images and videos, I work with AI engines such as Kling, using carefully crafted prompts to guide the output. These tools help me quickly explore ideas, create prototypes, and focus more on the overall user experience rather than repetitive tasks.'
-    },
+    // {
+    //     type: 'question',
+    //     text: 'Which AI tools do you use in your design work?'
+    // },   
+    // {
+    //     type: 'answer',
+    //     text: 'I use AI in multiple ways to support my creative process. For image editing and enhancements, I use Photoshop’s AI-powered tools. For generative content like images and videos, I work with AI engines such as Kling, using carefully crafted prompts to guide the output. These tools help me quickly explore ideas, create prototypes, and focus more on the overall user experience rather than repetitive tasks.'
+    // },
     {
         type: 'question',
         text: 'Do you have any non-AI digital creations?'

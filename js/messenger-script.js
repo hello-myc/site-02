@@ -14,7 +14,7 @@ const chatData = [
     },
     {
         type: 'answer',
-        text: 'My primary focus is web design. I have worked on products ranging from AI creative software and facial recognition platforms to communication tools and sales-oriented products, and was responsible for the visual design of related feature scenarios.'
+        text: 'My primary focus is web design. I have worked on web related projects and was responsible for the page layout, visual design and related feature scenarios.'
     },
     {
         type: 'question',
@@ -22,7 +22,7 @@ const chatData = [
     },
     {
         type: 'answer',
-        text: 'Not exactly. I’m also involved in HTML/CSS layout development and adjustments, as well as implementing JavaScript interactions. I make sure the website is optimized for SEO and that the design is properly presented across different devices and platforms.'
+        text: 'Not exactly. I’m also involved in HTML/CSS layout development and adjustments, as well as implementing JavaScript interactions.<br>Also to make sure the website is SEO ready and the design is properly presented across platforms.'
     },
     {
         type: 'question',
@@ -30,7 +30,7 @@ const chatData = [
     },   
     {
         type: 'answer',
-        text: 'I mainly use Adobe Creative Suite, Figma, VS Code, and GitHub. For web development, I work with HTML5, CSS3, and JavaScript. AI-assisted tools I use include ChatGPT and Claude.'
+        text: 'I mainly use Adobe Creative Suite, Figma, VS Code, and GitHub.<br>For web development, I work with HTML5, CSS3, and JavaScript. AI-assisted tools I use include ChatGPT and Claude.'
     },
     {
         type: 'question',
@@ -38,7 +38,7 @@ const chatData = [
     },   
     {
         type: 'answer',
-        text: 'AI helps me reduce repetitive tasks and explore more possibilities in a shorter time. Instead of replacing design thinking, it allows me to focus more on problem-solving and delivering clear, user-centered experiences.'
+        text: 'AI helps me reduce repetitive tasks and explore more possibilities in a shorter time. <br>Instead of replacing design thinking, it allows me to focus more on problem-solving and delivering clear, user-centered experiences.'
     },
     // {
     //     type: 'question',
@@ -50,11 +50,11 @@ const chatData = [
     // },
     {
         type: 'question',
-        text: 'Do you have any non-AI digital creations?'
+        text: 'Do you have other interesting works?'
     },   
     {
         type: 'answer',
-        text: 'Yes, I do. Outside of AI-related work, I’ve created a small series of LINE sticker sets. You’re welcome to check them out.<br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank"><img src="images/sticker.png" alt="line sticker" style="max-width: 30%; height:auto; border-radius: 10px; margin-top: 10px;"></a><br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Sticker 1</a> / <a href="https://store.line.me/stickershop/product/5626577/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Sticker 2</a>'
+        text: 'Yes, there is one. I’ve created a small series of LINE sticker sets. You’re welcome to check them out.<br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank"><img src="images/sticker.png" alt="line sticker" style="max-width: 240px; height:auto; border-radius: 10px; margin-top: 10px;"></a><br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Sticker 1</a> / <a href="https://store.line.me/stickershop/product/5626577/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Sticker 2</a>'
     },
 ];
 const scrollTriggerArea = document.getElementById('scrollTriggerArea');

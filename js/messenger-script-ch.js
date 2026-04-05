@@ -14,7 +14,7 @@ const chatData = [
     },
     {
         type: 'answer',
-        text: '主要是網頁設計，經手過的類型從 AI 創意軟體、臉部辨識平台，到通訊工具和銷售用途都有，並且負責相關功能的使用情境視覺。'
+        text: '主要是網頁設計，從頁面版面架構，網頁視覺設計到相關功能的使用情境視覺。'
     },
     {
         type: 'question',
@@ -50,11 +50,11 @@ const chatData = [
     // },
     {
         type: 'question',
-        text: '有什麼其他非 AI 的數位創作嗎？'
+        text: '有什麼其他有趣的創作嗎？'
     },   
     {
         type: 'answer',
-        text: '有的。除了 AI 相關工作之外，我曾經創作過一些 Line 貼圖系列。有興趣可以看看：<br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank"><img src="images/sticker.png" alt="line sticker" style="max-width: 30%; height:auto; border-radius: 10px; margin-top: 10px;"></a><br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Line 貼圖 1</a> / <a href="https://store.line.me/stickershop/product/5626577/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Line 貼圖 2</a>'
+        text: '有的。我曾經創作過一些 Line 貼圖系列。有興趣可以看看：<br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank"><img src="images/sticker.png" alt="line sticker" style="max-width: 240px; height:auto; border-radius: 10px; margin-top: 10px;"></a><br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Line 貼圖 1</a> / <a href="https://store.line.me/stickershop/product/5626577/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Line 貼圖 2</a>'
     },
 ];
 const scrollTriggerArea = document.getElementById('scrollTriggerArea');

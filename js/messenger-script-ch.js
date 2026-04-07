@@ -54,7 +54,7 @@ const chatData = [
     },   
     {
         type: 'answer',
-        text: '有的。我曾經創作過一些 Line 貼圖系列。有興趣可以看看：<br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank"><img src="images/sticker.png" alt="line sticker" style="max-width: 240px; height:auto; border-radius: 10px; margin-top: 10px;"></a><br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Line 貼圖 1</a> / <a href="https://store.line.me/stickershop/product/5626577/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Line 貼圖 2</a>'
+        text: '有的。我曾經創作過一些 Line 貼圖系列。有興趣可以看看：<br><img src="images/sticker.png" alt="line sticker" style="max-width: 240px; height:auto; border-radius: 10px; margin-top: 10px;"><br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Line 貼圖 1</a> / <a href="https://store.line.me/stickershop/product/5626577/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Line 貼圖 2</a>'
     },
 ];
 const scrollTriggerArea = document.getElementById('scrollTriggerArea');

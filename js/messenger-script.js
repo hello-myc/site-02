@@ -54,7 +54,7 @@ const chatData = [
     },   
     {
         type: 'answer',
-        text: 'Yes, there is one. I’ve created a small series of LINE sticker sets. You’re welcome to check them out.<br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank"><img src="images/sticker.png" alt="line sticker" style="max-width: 240px; height:auto; border-radius: 10px; margin-top: 10px;"></a><br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Sticker 1</a> / <a href="https://store.line.me/stickershop/product/5626577/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Sticker 2</a>'
+        text: 'Yes, there is one. I’ve created a small series of LINE sticker sets. <br>You’re welcome to check them out.<br><img src="images/sticker.png" alt="line sticker" style="max-width: 240px; height:auto; border-radius: 10px; margin-top: 10px;"><br><a href="https://store.line.me/stickershop/product/4439554/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Sticker 1</a> / <a href="https://store.line.me/stickershop/product/5626577/en?from=sticker" target="_blank" style="font-size:0.75em; font-weight: bold;">Sticker 2</a>'
     },
 ];
 const scrollTriggerArea = document.getElementById('scrollTriggerArea');

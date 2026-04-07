@@ -79,9 +79,9 @@ const cardData = {
   },
   card14: {
     eyebrow: "專案簡介",
-    title: "標準字設計",
-    body: "獲選為 Moovielive 的官方品牌標準字。<br>Moovielive 是 PowerDVD 的擴展服務，提供電影資訊和可下載內容。",
-    image: "images/visual/moovielive_logo.webp"
+    title: "產品頁面設計",
+    body: "YouCam 產品頁面設計。<br>透過滾動頁面，使用者可以輕鬆與產品的關鍵功能進行互動，並了解它如何提升其使用體驗。",
+    image: "images/visual/logo-visual-1024-youcam.webp"
   }
 };
 

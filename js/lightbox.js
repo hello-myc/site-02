@@ -79,9 +79,9 @@ const cardData = {
   },
   card14: {
     eyebrow: "Project Overview",
-    title: "Logotype design.",
-    body: "Selected as the official logotype for the the Moovielive website. Moovielive is a extensive service of PowerDVD for movie information and downloadable content.",
-    image: "images/visual/moovielive_logo.webp"
+    title: "Product page design.",
+    body: "Product page design for YouCam.<br>By scrolling through the page, users can easily interact with the product's key features visually and understand how it can enhance their experience.",
+    image: "images/visual/logo-visual-1024-youcam.webp"
   }
 };
 

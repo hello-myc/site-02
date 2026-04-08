@@ -911,12 +911,15 @@ a.btn.btn_learnmore:hover {
     }
 
     .pdr-txt {
-        order: 1;
+        order: 2;
         /* padding:0 30px !important; */
+        padding: 0px 30px 20px 30px !important;
+        background: #3a3a3a;
+        box-shadow: 0px -20px 20px 0px #00000096;
     }
 
     .pdr-vid {
-        order: 2;
+        order: 1;
     }
     .pdr-vid-b {
         order: 3 !important;
@@ -2888,7 +2891,7 @@ a.txt-link {
     margin: auto;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 960px) {
     .block-section.pdrm-section .pdr-vid img {
         width: 100%;
     }

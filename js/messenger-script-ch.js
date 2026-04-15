@@ -14,7 +14,7 @@ const chatData = [
     },
     {
         type: 'answer',
-        text: '主要是網頁設計，從頁面版面架構，網頁視覺設計到相關功能的使用情境視覺。'
+        text: '主要是 SaaS 產品設計，從頁面版面架構，網頁視覺設計到相關功能的使用情境視覺。'
     },
     {
         type: 'question',

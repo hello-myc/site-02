@@ -14,7 +14,7 @@ const chatData = [
     },
     {
         type: 'answer',
-        text: 'My primary focus is web design. I have worked on web related projects and was responsible for the page layout, visual design and related feature scenarios.'
+        text: 'My primary focus is SaaS product design. I have worked on web related projects and was responsible for the page layout, visual design and related feature scenarios.'
     },
     {
         type: 'question',

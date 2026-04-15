@@ -79,9 +79,9 @@ const cardData = {
   },
   card14: {
     eyebrow: "專案簡介",
-    title: "產品頁面設計",
-    body: "YouCam 產品頁面設計。<br>透過滾動頁面，使用者可以輕鬆與產品的關鍵功能進行互動，並了解它如何提升其使用體驗。",
-    image: "images/visual/logo-visual-1024-youcam.webp"
+    title: "標準字設計",
+    body: "MoovieLive 標準字設計。<br>MoovieLive 是PowerDirector 的延伸服務。",
+    image: "images/visual/moovielive_logo.webp"
   }
 };
 

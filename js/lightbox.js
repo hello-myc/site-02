@@ -79,9 +79,9 @@ const cardData = {
   },
   card14: {
     eyebrow: "Project Overview",
-    title: "Product page design.",
-    body: "Product page design for YouCam.<br>By scrolling through the page, users can easily interact with the product's key features visually and understand how it can enhance their experience.",
-    image: "images/visual/logo-visual-1024-youcam.webp"
+    title: "Logotype design.",
+    body: "Logotype design for MoovieLive .<br>MoovieLive is an extension service of PowerDirector.",
+    image: "images/visual/moovielive_logo.webp"
   }
 };
 

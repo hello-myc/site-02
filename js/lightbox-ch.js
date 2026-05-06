@@ -82,6 +82,12 @@ const cardData = {
     title: "標準字設計",
     body: "MoovieLive 標準字設計。<br>MoovieLive 是PowerDirector 的延伸服務。",
     image: "images/visual/moovielive_logo.webp"
+  },
+  card15: {
+    eyebrow: "專案簡介",
+    title: "產品頁面設計",
+    body: "YouCam 產品頁面設計。<br>在開發設計草稿前，與行銷及產品團隊針對策略與方向達成共識，並使用 Figma 作為協作工具，並在定案前整合各方意見回饋並進行最佳化。",
+    image: "images/visual/logo-visual-1024-youcam.webp"
   }
 };
 

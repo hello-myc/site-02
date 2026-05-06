@@ -82,6 +82,12 @@ const cardData = {
     title: "Logotype design.",
     body: "Logotype design for MoovieLive .<br>MoovieLive is an extension service of PowerDirector.",
     image: "images/visual/moovielive_logo.webp"
+  },
+  card15: {
+    eyebrow: "Project Overview",
+    title: "Product page design.",
+    body: "Product page design for YouCam.<br>Aligned with marketing and product teams on strategy and direction before developing design drafts. Used Figma as a collaborative tool to gather feedback before final execution.",
+    image: "images/visual/logo-visual-1024-youcam.webp"
   }
 };
 
